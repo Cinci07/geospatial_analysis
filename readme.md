@@ -1,1 +1,1 @@
-#git repo fr Arbeit GDS 
+# git repo fÃ¼r Arbeit in Geospatial Analysis for smart communities 
