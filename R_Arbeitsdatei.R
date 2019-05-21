@@ -1,8 +1,8 @@
 #### Notes ####
 
-# Flughafen Doha (DOH) fehlt noch! Muss noch erg‰nzt werden
+# Flughafen Doha (DOH) fehlt noch! Muss noch erg√§nzt werden
 
-# Tanzania Continent erg‰nzen
+# Tanzania Continent erg√§nzen
 
 # Egypt zu Middle East 
 
@@ -126,12 +126,12 @@ flights_raw <- subset(flights_raw[flights_raw$Bewegungsart.LSV == "S",c(3:5,7,8,
 colnames(flights_raw) <- c("IATA_Airline_Code","Airline_name","Flugnummer","IATA_Destination_Airport","Destination_City","Passagiere")
 
 ## Transformation flights
-flights_raw[flights_raw$IATA_Destination_Airport %in% c("LGW","LCY","LTN"), 4]  <- "LHR" # London Flugh‰fen zusammenfassen
-flights_raw[flights_raw$IATA_Destination_Airport == "SAW", 4]                   <- "IST" # Instanbul Flugh‰fen zusammenfassen
-flights_raw[flights_raw$IATA_Destination_Airport == "EWR", 4]                   <- "JFK" # New York Flugh‰fen zusammenfassen
-flights_raw[flights_raw$IATA_Destination_Airport == "SXF", 4]                   <- "TXL" # Berlin Flugh‰fen zusammenfassen
-flights_raw[flights_raw$IATA_Destination_Airport == "SXF", 4]                   <- "TXL" # Berlin Flugh‰fen zusammenfassen
-flights_raw[flights_raw$IATA_Destination_Airport == "DME", 4]                   <- "SVO" # Moskau Flugh‰fen zusammenfassen
+flights_raw[flights_raw$IATA_Destination_Airport %in% c("LGW","LCY","LTN"), 4]  <- "LHR" # London Flugh√§fen zusammenfassen
+flights_raw[flights_raw$IATA_Destination_Airport == "SAW", 4]                   <- "IST" # Instanbul Flugh√§fen zusammenfassen
+flights_raw[flights_raw$IATA_Destination_Airport == "EWR", 4]                   <- "JFK" # New York Flugh√§fen zusammenfassen
+flights_raw[flights_raw$IATA_Destination_Airport == "SXF", 4]                   <- "TXL" # Berlin Flugh√§fen zusammenfassen
+flights_raw[flights_raw$IATA_Destination_Airport == "SXF", 4]                   <- "TXL" # Berlin Flugh√§fen zusammenfassen
+flights_raw[flights_raw$IATA_Destination_Airport == "DME", 4]                   <- "SVO" # Moskau Flugh√§fen zusammenfassen
 
 ## Mergeing
 flights_raw <- merge(flights_raw, airports, by.x="IATA_Destination_Airport", by.y = "IATA", sort=TRUE)  # Add airport data (long/lat)
