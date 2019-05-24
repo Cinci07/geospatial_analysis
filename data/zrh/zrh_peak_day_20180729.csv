@@ -1,0 +1,740 @@
+Tag;Wochentag;Airline Code;Airline Name;Flugnummer;Bewegungsart LSV;Dest 3-Letter;City;ATA_ATD_ltc_Time;STA_STD_ltc_Time;Piste;PAX
+29.07.2018;So;2L;Helvetic Airways AG;2L062;S;CLY;Calvi;07:37:41;07:40:00;32;91
+29.07.2018;So;2L;Helvetic Airways AG;2L063;L;CLY;Calvi;14:15:33;14:20:00;14;99
+29.07.2018;So;2L;Helvetic Airways AG;2L974;S;RLG;Rostock;15:15:07;15:05:00;28;89
+29.07.2018;So;2L;Helvetic Airways AG;2L975;L;RLG;Rostock;18:50:55;18:55:00;14;85
+29.07.2018;So;2L;Helvetic Airways AG;2L7010;S;PMI;Mallorca;07:20:21;07:20:00;28;99
+29.07.2018;So;2L;Helvetic Airways AG;2L7011;L;PMI;Mallorca;17:06:18;16:55:00;14;99
+29.07.2018;So;8Q;ONUR HAVA TASIMACILIK AWMS;8Q841;L;AYT;Antalya;20:12:12;19:35:00;28;214
+29.07.2018;So;8Q;ONUR HAVA TASIMACILIK AWMS;8Q842;S;AYT;Antalya;21:32:11;20:35:00;32;212
+29.07.2018;So;A3;Aegean Airlines S.A.;A3442;L;HER;Heraklion;17:43:56;17:25:00;14;171
+29.07.2018;So;A3;Aegean Airlines S.A.;A3443;S;HER;Heraklion;18:25:15;18:10:00;28;170
+29.07.2018;So;A3;Aegean Airlines S.A.;A3852;L;ATH;Athens;15:59:43;15:35:00;14;162
+29.07.2018;So;A3;Aegean Airlines S.A.;A3853;S;ATH;Athens;17:11:01;16:25:00;28;167
+29.07.2018;So;AA;American Airlines Inc.;AA092;L;PHL;Philadelphia;08:12:39;08:50:00;34;169
+29.07.2018;So;AA;American Airlines Inc.;AA093;S;PHL;Philadelphia;11:43:00;11:45:00;16;204
+29.07.2018;So;AC;Air Canada;AC802;L;YVR;Vancouver;08:14:58;07:55:00;34;211
+29.07.2018;So;AC;Air Canada;AC803;S;YVR;Vancouver;10:12:50;10:05:00;16;249
+29.07.2018;So;AC;Air Canada;AC878;L;YYZ;Toronto;08:04:40;07:50:00;34;391
+29.07.2018;So;AC;Air Canada;AC879;S;YYZ;Toronto;10:21:35;09:35:00;16;396
+29.07.2018;So;AF;Air France;AF1114;L;CDG;Paris;08:55:09;08:50:00;34;100
+29.07.2018;So;AF;Air France;AF1115;S;CDG;Paris;09:41:00;09:40:00;28;100
+29.07.2018;So;AF;Air France;AF1414;L;CDG;Paris;22:50:32;22:35:00;28;126
+29.07.2018;So;AF;Air France;AF1415;S;CDG;Paris;07:45:00;07:45:00;32;107
+29.07.2018;So;AF;Air France;AF1614;L;CDG;Paris;14:16:54;14:10:00;14;126
+29.07.2018;So;AF;Air France;AF1615;S;CDG;Paris;14:55:43;15:05:00;28;106
+29.07.2018;So;AF;Air France;AF1814;L;CDG;Paris;17:57:25;17:45:00;14;123
+29.07.2018;So;AF;Air France;AF1815;S;CDG;Paris;18:34:00;18:30:00;28;109
+29.07.2018;So;AT;Royal Air Maroc;AT936;L;CMN;Casablanca;17:32:44;17:20:00;14;131
+29.07.2018;So;AT;Royal Air Maroc;AT936;S;CMN;Casablanca;18:32:00;18:10:00;28;147
+29.07.2018;So;AY;Finnair Plc;AY1511;L;HEL;Helsinki;09:45:13;09:40:00;14;196
+29.07.2018;So;AY;Finnair Plc;AY1512;S;HEL;Helsinki;10:52:00;10:55:00;28;207
+29.07.2018;So;AY;Finnair Plc;AY1513;L;HEL;Helsinki;18:24:34;18:15:00;14;201
+29.07.2018;So;AY;Finnair Plc;AY1514;S;HEL;Helsinki;19:25:00;19:10:00;28;204
+29.07.2018;So;AZ;Alitalia -Compagnia Aerea Italiana;AZ571;S;FCO;Rome;11:13:50;11:10:00;28;150
+29.07.2018;So;AZ;Alitalia -Compagnia Aerea Italiana;AZ572;L;FCO;Rome;10:24:12;10:15:00;14;138
+29.07.2018;So;AZ;Alitalia -Compagnia Aerea Italiana;AZ573;S;FCO;Rome;19:05:58;19:10:00;28;76
+29.07.2018;So;AZ;Alitalia -Compagnia Aerea Italiana;AZ574;L;FCO;Rome;18:18:32;18:30:00;14;90
+29.07.2018;So;BA;British Airways plc;BA709;S;LHR;London;07:14:00;07:15:00;28;124
+29.07.2018;So;BA;British Airways plc;BA712;L;LHR;London;12:18:15;12:20:00;14;131
+29.07.2018;So;BA;British Airways plc;BA713;S;LHR;London;13:10:00;13:10:00;28;152
+29.07.2018;So;BA;British Airways plc;BA714;L;LHR;London;14:57:12;15:00:00;14;129
+29.07.2018;So;BA;British Airways plc;BA715;S;LHR;London;15:51:00;15:50:00;28;128
+29.07.2018;So;BA;British Airways plc;BA718;L;LHR;London;18:57:09;18:55:00;14;132
+29.07.2018;So;BA;British Airways plc;BA719;S;LHR;London;20:37:00;20:40:00;32;109
+29.07.2018;So;BA;British Airways plc;BA720;L;LHR;London;23:06:54;22:35:00;28;134
+29.07.2018;So;BT;airBaltic Corporation AS;BT643;L;RIX;Riga;17:57:31;17:55:00;14;132
+29.07.2018;So;BT;airBaltic Corporation AS;BT644;S;RIX;Riga;18:57:08;18:35:00;28;113
+29.07.2018;So;CA;Air China;CA781;L;PEK;Beijing;19:48:07;18:20:00;14;186
+29.07.2018;So;CA;Air China;CA782;S;PEK;Beijing;21:08:43;20:00:00;32;187
+29.07.2018;So;CJ;BA CityFlyer Ltd;CJ4509;L;EDI;Edinburgh;17:48:41;17:35:00;14;76
+29.07.2018;So;CJ;BA CityFlyer Ltd;CJ8768;S;LCY;London;18:34:00;18:20:00;28;73
+29.07.2018;So;CJ;BA CityFlyer Ltd;CJ8769;L;LCY;London;22:40:09;22:25:00;28;73
+29.07.2018;So;CX;Cathay Pacific Airways Ltd.;CX382;S;HKG;Hong Kong;13:44:43;13:40:00;16;264
+29.07.2018;So;CX;Cathay Pacific Airways Ltd.;CX383;L;HKG;Hong Kong;06:17:41;06:30:00;34;253
+29.07.2018;So;DL;Delta Air Lines Inc.;DL066;L;ATL;Atlanta;10:36:41;08:30:00;14;216
+29.07.2018;So;DL;Delta Air Lines Inc.;DL067;S;ATL;Atlanta;12:57:21;10:15:00;16;223
+29.07.2018;So;DL;Delta Air Lines Inc.;DL407;L;JFK;New York;10:50:31;10:30:00;14;234
+29.07.2018;So;DL;Delta Air Lines Inc.;DL408;S;JFK;New York;13:44:28;13:40:00;28;234
+29.07.2018;So;EI;Aer Lingus Ltd.;EI348;L;DUB;Dublin;21:08:44;20:50:00;28;168
+29.07.2018;So;EI;Aer Lingus Ltd.;EI349;S;DUB;Dublin;21:56:51;21:30:00;32;169
+29.07.2018;So;EK;Emirates the International Airline;EK085;L;DXB;Dubai;20:08:25;20:20:00;14;427
+29.07.2018;So;EK;Emirates the International Airline;EK086;S;DXB;Dubai;22:26:16;22:15:00;32;509
+29.07.2018;So;EK;Emirates the International Airline;EK087;L;DXB;Dubai;13:45:36;13:20:00;14;471
+29.07.2018;So;EK;Emirates the International Airline;EK088;S;DXB;Dubai;15:39:38;15:25:00;16;499
+29.07.2018;So;EW;Eurowings GmbH;EW762;L;CGN;Cologne;19:59:29;19:45:00;14;86
+29.07.2018;So;EW;Eurowings GmbH;EW763;S;CGN;Cologne;20:36:39;20:40:00;32;107
+29.07.2018;So;EW;Eurowings GmbH;EW764;L;CGN;Cologne;08:19:08;08:00:00;34;114
+29.07.2018;So;EW;Eurowings GmbH;EW765;S;CGN;Cologne;08:56:33;08:40:00;28;131
+29.07.2018;So;EW;Eurowings GmbH;EW766;L;CGN;Cologne;12:59:37;12:00:00;14;124
+29.07.2018;So;EW;Eurowings GmbH;EW767;S;CGN;Cologne;13:29:46;13:00:00;28;102
+29.07.2018;So;EW;Eurowings GmbH;EW768;L;CGN;Cologne;17:16:12;16:30:00;14;140
+29.07.2018;So;EW;Eurowings GmbH;EW769;S;CGN;Cologne;18:18:59;17:05:00;28;118
+29.07.2018;So;EW;Eurowings GmbH;EW7760;L;HAM;Hamburg;08:42:25;08:25:00;34;130
+29.07.2018;So;EW;Eurowings GmbH;EW7761;S;HAM;Hamburg;09:29:24;09:05:00;28;168
+29.07.2018;So;EW;Eurowings GmbH;EW7762;L;HAM;Hamburg;14:24:53;14:05:00;14;129
+29.07.2018;So;EW;Eurowings GmbH;EW7763;S;HAM;Hamburg;15:25:14;14:45:00;28;136
+29.07.2018;So;EW;Eurowings GmbH;EW7764;L;HAM;Hamburg;20:40:29;19:40:00;28;163
+29.07.2018;So;EW;Eurowings GmbH;EW7765;S;HAM;Hamburg;21:27:48;20:20:00;32;168
+29.07.2018;So;EW;Eurowings GmbH;EW9762;L;DUS;Dusseldorf;08:27:47;08:10:00;34;74
+29.07.2018;So;EW;Eurowings GmbH;EW9763;S;DUS;Dusseldorf;09:13:33;08:50:00;28;72
+29.07.2018;So;EW;Eurowings GmbH;EW9766;L;DUS;Dusseldorf;20:22:33;18:20:00;28;151
+29.07.2018;So;EW;Eurowings GmbH;EW9767;S;DUS;Dusseldorf;21:17:13;19:00:00;32;167
+29.07.2018;So;EW;Eurowings GmbH;EW9768;L;DUS;Dusseldorf;21:04:23;20:05:00;28;139
+29.07.2018;So;EW;Eurowings GmbH;EW9769;S;DUS;Dusseldorf;21:45:33;20:40:00;32;158
+29.07.2018;So;EY;Etihad Airways;EY073;L;AUH;Abu Dhabi;06:30:18;06:45:00;34;299
+29.07.2018;So;EY;Etihad Airways;EY074;S;AUH;Abu Dhabi;11:30:00;11:30:00;28;284
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY2045;L;LTN;London;15:51:41;15:45:00;14;179
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY2046;S;LTN;London;16:43:32;16:30:00;28;178
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY2047;L;LTN;London;22:29:14;20:45:00;28;173
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY2048;S;LTN;London;23:06:56;21:25:00;32;174
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY4611;L;SXF;Berlin;12:44:16;12:50:00;14;144
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY4612;S;SXF;Berlin;13:47:52;13:30:00;28;140
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5860;S;TXL;Berlin;06:24:15;06:30:00;32;69
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5863;L;TXL;Berlin;10:04:10;10:05:00;14;164
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5864;S;TXL;Berlin;10:45:46;10:45:00;28;163
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5867;L;TXL;Berlin;14:28:28;14:20:00;14;77
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5868;S;TXL;Berlin;15:05:08;15:00:00;28;77
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5873;L;TXL;Berlin;18:54:04;18:35:00;14;79
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5874;S;TXL;Berlin;19:24:17;19:10:00;28;79
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5875;L;TXL;Berlin;21:40:03;20:10:00;28;151
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5876;S;TXL;Berlin;22:16:34;20:50:00;32;144
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY5877;L;TXL;Berlin;23:36:36;22:50:00;28;81
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY7681;L;LIS;Lisbon;10:10:26;10:30:00;14;155
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY7682;S;LIS;Lisbon;11:30:21;11:05:00;28;156
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY8115;L;LGW;London;16:27:11;16:10:00;14;165
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY8116;S;LGW;London;17:10:36;16:45:00;28;171
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY8117;L;LGW;London;23:06:53;20:55:00;28;148
+29.07.2018;So;EZY;easyJet Airline Company Ltd.;EZY8118;S;LGW;London;23:32:56;21:30:00;32;141
+29.07.2018;So;FB;Bulgaria Air;FB491;L;SOF;Sofia;19:54:03;19:45:00;14;131
+29.07.2018;So;FB;Bulgaria Air;FB492;S;SOF;Sofia;20:48:41;20:45:00;32;136
+29.07.2018;So;FI;Icelandair Deutschland;FI568;L;KEF;Reykjavík;13:16:37;13:00:00;14;256
+29.07.2018;So;FI;Icelandair Deutschland;FI569;S;KEF;Reykjavík;14:19:38;14:00:00;28;261
+29.07.2018;So;GM;Germania Flug AG;GM3402;S;BEY;Beirut;21:39:46;21:15:00;32;213
+29.07.2018;So;GM;Germania Flug AG;GM3404;S;PMI;Mallorca;15:52:31;15:50:00;28;134
+29.07.2018;So;GM;Germania Flug AG;GM3405;L;PMI;Mallorca;20:32:21;20:45:00;28;146
+29.07.2018;So;GM;Germania Flug AG;GM3506;S;HRG;Hurghada;10:19:37;10:20:00;28;130
+29.07.2018;So;GM;Germania Flug AG;GM3507;L;HRG;Hurghada;20:16:07;20:20:00;28;144
+29.07.2018;So;GM;Germania Flug AG;GM3512;S;LCA;Larnarca;07:00:00;07:00:00;32;142
+29.07.2018;So;GM;Germania Flug AG;GM3513;L;LCA;Larnarca;14:57:13;15:05:00;14;147
+29.07.2018;So;GM;Germania Flug AG;GM4276;S;PMI;Mallorca;16:58:02;16:50:00;28;65
+29.07.2018;So;GM;Germania Flug AG;GM4277;L;PMI;Mallorca;22:01:29;22:00:00;28;133
+29.07.2018;So;GM;Germania Flug AG;GM4936;S;LPA;Gran Canaria;06:20:00;06:20:00;32;137
+29.07.2018;So;GM;Germania Flug AG;GM4937;L;LPA;Gran Canaria;15:41:20;15:35:00;14;140
+29.07.2018;So;GM;Germania Flug AG;GM6028;S;SKP;Skopje;14:05:47;14:10:00;16;205
+29.07.2018;So;GM;Germania Flug AG;GM6029;L;SKP;Skopje;19:12:07;19:25:00;14;214
+29.07.2018;So;GM;Germania Flug AG;GM6032;S;PRN;Prishtina;07:50:12;07:55:00;32;215
+29.07.2018;So;GM;Germania Flug AG;GM6033;L;PRN;Prishtina;12:48:47;12:55:00;14;210
+29.07.2018;So;GM;Germania Flug AG;GM6037;L;PRN;Prishtina;06:27:19;06:30:00;34;215
+29.07.2018;So;GM;Germania Flug AG;GM6044;S;SKP;Skopje;21:36:18;21:35:00;32;148
+29.07.2018;So;GM;Germania Flug AG;GM6140;S;PRN;Prishtina;22:09:22;21:55:00;32;150
+29.07.2018;So;HV;Transavia Airlines C.V.;HV5069;L;AMS;Amsterdam;16:20:16;16:15:00;14;169
+29.07.2018;So;HV;Transavia Airlines C.V.;HV5070;S;AMS;Amsterdam;17:27:22;17:10:00;28;164
+29.07.2018;So;IB;Iberia LAE;IB3464;L;MAD;Madrid;10:57:27;11:05:00;14;193
+29.07.2018;So;IB;Iberia LAE;IB3471;S;MAD;Madrid;18:40:00;18:40:00;28;152
+29.07.2018;So;IB;Iberia LAE;IB3474;L;MAD;Madrid;17:55:42;18:00:00;14;162
+29.07.2018;So;IB;Iberia LAE;IB3475;S;MAD;Madrid;07:42:39;07:45:00;32;123
+29.07.2018;So;IB;Iberia LAE;IB3476;L;MAD;Madrid;22:28:31;22:15:00;28;125
+29.07.2018;So;IB;Iberia LAE;IB3477;S;MAD;Madrid;11:49:00;11:50:00;28;179
+29.07.2018;So;JP;Adria Airways;JP306;L;LJU;Ljubljana;18:39:47;18:15:00;14;85
+29.07.2018;So;JP;Adria Airways;JP307;S;LJU;Ljubljana;20:46:59;20:45:00;32;24
+29.07.2018;So;JP;Adria Airways;JP310;L;LJU;Ljubljana;14:35:57;14:30:00;14;63
+29.07.2018;So;JP;Adria Airways;JP311;S;LJU;Ljubljana;15:08:49;15:05:00;28;49
+29.07.2018;So;JP;Adria Airways;JP364;L;LJU;Ljubljana;08:44:12;08:20:00;34;40
+29.07.2018;So;JP;Adria Airways;JP365;S;LJU;Ljubljana;10:29:42;10:25:00;28;81
+29.07.2018;So;JU;Air SERBIA a.d. Beograd;JU370;L;BEG;Belgrade;09:15:23;09:10:00;14;122
+29.07.2018;So;JU;Air SERBIA a.d. Beograd;JU371;S;BEG;Belgrade;10:05:19;09:55:00;28;134
+29.07.2018;So;JU;Air SERBIA a.d. Beograd;JU372;L;BEG;Belgrade;14:38:38;14:30:00;14;127
+29.07.2018;So;JU;Air SERBIA a.d. Beograd;JU373;S;BEG;Belgrade;15:27:31;15:20:00;28;133
+29.07.2018;So;JU;Air SERBIA a.d. Beograd;JU374;L;BEG;Belgrade;20:41:04;20:10:00;28;149
+29.07.2018;So;JU;Air SERBIA a.d. Beograd;JU375;S;BEG;Belgrade;21:51:04;21:00:00;32;165
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1952;S;AMS;Amsterdam;07:10:00;07:00:00;28;92
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1953;L;AMS;Amsterdam;08:36:00;08:35:00;34;88
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1954;S;AMS;Amsterdam;09:15:39;09:20:00;28;91
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1957;L;AMS;Amsterdam;10:53:51;11:05:00;14;182
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1958;S;AMS;Amsterdam;11:47:49;11:50:00;28;167
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1959;L;AMS;Amsterdam;13:54:46;13:35:00;14;99
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1960;S;AMS;Amsterdam;14:32:04;14:15:00;28;88
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1961;L;AMS;Amsterdam;16:47:31;16:45:00;14;184
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1962;S;AMS;Amsterdam;17:43:18;17:35:00;28;170
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1963;L;AMS;Amsterdam;18:35:53;18:40:00;14;79
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1964;S;AMS;Amsterdam;19:23:00;19:20:00;28;78
+29.07.2018;So;KL;KLM Royal Dutch Airlines;KL1969;L;AMS;Amsterdam;22:44:58;22:25:00;28;100
+29.07.2018;So;KM;Air Malta;KM490;L;MLA;Malta;19:30:53;16:45:00;14;158
+29.07.2018;So;KM;Air Malta;KM491;S;MLA;Malta;20:12:26;17:40:00;32;162
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1182;L;FRA;Frankfurt;08:01:51;07:35:00;34;141
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1183;S;FRA;Frankfurt;08:40:50;08:15:00;32;149
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1184;L;FRA;Frankfurt;08:48:24;08:35:00;34;94
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1185;S;FRA;Frankfurt;09:41:59;09:35:00;28;96
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1186;L;FRA;Frankfurt;10:39:05;10:35:00;14;128
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1187;S;FRA;Frankfurt;11:17:56;11:15:00;28;128
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1190;L;FRA;Frankfurt;14:04:43;13:55:00;14;128
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1191;S;FRA;Frankfurt;14:49:00;14:40:00;28;132
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1196;L;FRA;Frankfurt;17:29:55;17:20:00;14;150
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1197;S;FRA;Frankfurt;18:10:44;18:05:00;28;156
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1198;L;FRA;Frankfurt;20:13:15;19:20:00;28;125
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH1199;S;FRA;Frankfurt;20:48:30;20:00:00;32;79
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH2367;S;MUC;Munich;09:21:23;09:20:00;28;86
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH2368;L;MUC;Munich;13:23:17;12:45:00;14;95
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH2369;S;MUC;Munich;14:16:51;13:20:00;28;92
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH2370;L;MUC;Munich;16:31:05;16:20:00;14;86
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH2371;S;MUC;Munich;17:13:00;16:55:00;28;77
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH2372;L;MUC;Munich;19:37:13;19:30:00;14;76
+29.07.2018;So;LH;Deutsche Lufthansa AG;LH2373;S;MUC;Munich;20:06:09;20:05:00;32;35
+29.07.2018;So;LO;LOT Polish Airlines;LO411;L;WAW;Warsaw;09:58:44;09:45:00;14;100
+29.07.2018;So;LO;LOT Polish Airlines;LO412;S;WAW;Warsaw;10:45:04;10:25:00;28;90
+29.07.2018;So;LO;LOT Polish Airlines;LO419;L;WAW;Warsaw;19:59:01;19:05:00;14;94
+29.07.2018;So;LO;LOT Polish Airlines;LO420;S;WAW;Warsaw;20:50:19;19:50:00;32;93
+29.07.2018;So;LX;Swiss International Air Lines AG;LX006;S;ORD;Chicago;09:45:00;09:40:00;16;236
+29.07.2018;So;LX;Swiss International Air Lines AG;LX007;L;ORD;Chicago;06:20:19;06:20:00;34;220
+29.07.2018;So;LX;Swiss International Air Lines AG;LX008;S;ORD;Chicago;13:24:27;12:55:00;16;339
+29.07.2018;So;LX;Swiss International Air Lines AG;LX009;L;ORD;Chicago;10:13:45;10:30:00;14;304
+29.07.2018;So;LX;Swiss International Air Lines AG;LX014;S;JFK;New York;13:17:00;12:55:00;16;235
+29.07.2018;So;LX;Swiss International Air Lines AG;LX015;L;JFK;New York;10:30:56;10:50:00;14;225
+29.07.2018;So;LX;Swiss International Air Lines AG;LX016;S;JFK;New York;10:03:00;09:50:00;16;236
+29.07.2018;So;LX;Swiss International Air Lines AG;LX017;L;JFK;New York;08:07:16;08:00:00;34;235
+29.07.2018;So;LX;Swiss International Air Lines AG;LX018;S;EWR;New York;17:43:00;17:20:00;16;214
+29.07.2018;So;LX;Swiss International Air Lines AG;LX019;L;EWR;New York;11:27:55;11:40:00;14;205
+29.07.2018;So;LX;Swiss International Air Lines AG;LX038;S;SFO;San Francisco;13:24:00;13:10:00;16;340
+29.07.2018;So;LX;Swiss International Air Lines AG;LX039;L;SFO;San Francisco;15:41:09;15:40:00;14;337
+29.07.2018;So;LX;Swiss International Air Lines AG;LX040;S;LAX;Los Angeles;13:32:28;13:10:00;16;338
+29.07.2018;So;LX;Swiss International Air Lines AG;LX041;L;LAX;Los Angeles;15:05:40;15:15:00;14;338
+29.07.2018;So;LX;Swiss International Air Lines AG;LX052;S;BOS;Boston;17:56:00;17:30:00;16;216
+29.07.2018;So;LX;Swiss International Air Lines AG;LX053;L;BOS;Boston;10:42:08;11:00:00;14;208
+29.07.2018;So;LX;Swiss International Air Lines AG;LX054;S;BOS;Boston;13:07:00;12:55:00;16;236
+29.07.2018;So;LX;Swiss International Air Lines AG;LX055;L;BOS;Boston;06:32:08;06:15:00;34;227
+29.07.2018;So;LX;Swiss International Air Lines AG;LX064;S;MIA;Miami;13:38:00;13:20:00;16;236
+29.07.2018;So;LX;Swiss International Air Lines AG;LX065;L;MIA;Miami;10:37:21;11:00:00;14;219
+29.07.2018;So;LX;Swiss International Air Lines AG;LX086;S;YUL;Montreal;13:04:00;12:50:00;16;234
+29.07.2018;So;LX;Swiss International Air Lines AG;LX087;L;YUL;Montreal;06:22:38;06:15:00;34;208
+29.07.2018;So;LX;Swiss International Air Lines AG;LX092;S;GRU;Sao Paulo;23:08:00;22:40:00;32;332
+29.07.2018;So;LX;Swiss International Air Lines AG;LX093;L;GRU;Sao Paulo;10:41:32;10:30:00;14;336
+29.07.2018;So;LX;Swiss International Air Lines AG;LX138;S;HKG;Hong Kong;00:14:00;22:40:00;34;336
+29.07.2018;So;LX;Swiss International Air Lines AG;LX138;S;HKG;Hong Kong;23:06:00;22:40:00;34;340
+29.07.2018;So;LX;Swiss International Air Lines AG;LX139;L;HKG;Hong Kong;06:13:27;06:10:00;34;312
+29.07.2018;So;LX;Swiss International Air Lines AG;LX146;S;DEL;New Delhi;12:47:00;12:40:00;16;236
+29.07.2018;So;LX;Swiss International Air Lines AG;LX147;L;DEL;New Delhi;06:34:31;06:20:00;34;231
+29.07.2018;So;LX;Swiss International Air Lines AG;LX154;S;BOM;Mumbai;09:48:00;09:45:00;16;223
+29.07.2018;So;LX;Swiss International Air Lines AG;LX155;L;BOM;Mumbai;06:09:21;06:15:00;34;230
+29.07.2018;So;LX;Swiss International Air Lines AG;LX160;S;NRT;Tokyo;13:05:00;13:00:00;16;214
+29.07.2018;So;LX;Swiss International Air Lines AG;LX161;L;NRT;Tokyo;15:14:34;15:35:00;14;212
+29.07.2018;So;LX;Swiss International Air Lines AG;LX176;S;SIN;Singapore;23:09:00;22:45:00;34;336
+29.07.2018;So;LX;Swiss International Air Lines AG;LX177;L;SIN;Singapore;06:19:24;06:10:00;34;337
+29.07.2018;So;LX;Swiss International Air Lines AG;LX180;S;BKK;Bangkok;18:44:26;17:55:00;16;339
+29.07.2018;So;LX;Swiss International Air Lines AG;LX181;L;BKK;Bangkok;19:00:45;19:35:00;14;333
+29.07.2018;So;LX;Swiss International Air Lines AG;LX188;S;PVG;Shanghai;13:19:00;13:05:00;16;209
+29.07.2018;So;LX;Swiss International Air Lines AG;LX189;L;PVG;Shanghai;15:21:21;15:50:00;14;198
+29.07.2018;So;LX;Swiss International Air Lines AG;LX196;S;PEK;Beijing;13:17:00;13:15:00;16;227
+29.07.2018;So;LX;Swiss International Air Lines AG;LX197;L;PEK;Beijing;11:13:05;11:20:00;14;182
+29.07.2018;So;LX;Swiss International Air Lines AG;LX238;S;CAI;Cairo;22:24:00;21:50:00;32;157
+29.07.2018;So;LX;Swiss International Air Lines AG;LX242;S;MCT;Muscat;12:30:00;12:25:00;16;232
+29.07.2018;So;LX;Swiss International Air Lines AG;LX243;L;MCT;Muscat;06:26:12;06:25:00;34;222
+29.07.2018;So;LX;Swiss International Air Lines AG;LX252;S;TLV;Tel Aviv;09:46:00;09:45:00;28;232
+29.07.2018;So;LX;Swiss International Air Lines AG;LX253;L;TLV;Tel Aviv;19:20:46;19:15:00;14;235
+29.07.2018;So;LX;Swiss International Air Lines AG;LX256;S;TLV;Tel Aviv;23:40:00;22:40:00;32;211
+29.07.2018;So;LX;Swiss International Air Lines AG;LX257;L;TLV;Tel Aviv;08:28:57;08:10:00;34;236
+29.07.2018;So;LX;Swiss International Air Lines AG;LX288;S;JNB;Johannesburg;22:58:00;22:40:00;34;219
+29.07.2018;So;LX;Swiss International Air Lines AG;LX289;L;JNB;Johannesburg;06:14:29;06:10:00;34;208
+29.07.2018;So;LX;Swiss International Air Lines AG;LX294;S;DAR;Dar es Salaam;10:01:00;09:55:00;16;226
+29.07.2018;So;LX;Swiss International Air Lines AG;LX296;L;NBO;Nairobi;06:15:51;06:15:00;34;226
+29.07.2018;So;LX;Swiss International Air Lines AG;LX316;S;LHR;London;07:21:00;07:05:00;28;119
+29.07.2018;So;LX;Swiss International Air Lines AG;LX317;L;LHR;London;11:42:36;11:35:00;14;110
+29.07.2018;So;LX;Swiss International Air Lines AG;LX318;S;LHR;London;10:40:00;10:30:00;28;134
+29.07.2018;So;LX;Swiss International Air Lines AG;LX319;L;LHR;London;14:46:08;14:45:00;14;125
+29.07.2018;So;LX;Swiss International Air Lines AG;LX324;S;LHR;London;15:43:00;15:30:00;28;132
+29.07.2018;So;LX;Swiss International Air Lines AG;LX325;L;LHR;London;19:58:13;19:55:00;14;130
+29.07.2018;So;LX;Swiss International Air Lines AG;LX326;S;LHR;London;17:37:00;17:10:00;28;159
+29.07.2018;So;LX;Swiss International Air Lines AG;LX327;L;LHR;London;22:33:48;21:20:00;28;173
+29.07.2018;So;LX;Swiss International Air Lines AG;LX332;S;LHR;London;12:35:00;12:05:00;28;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX333;L;LHR;London;17:05:31;16:30:00;14;170
+29.07.2018;So;LX;Swiss International Air Lines AG;LX338;S;LHR;London;18:59:00;18:35:00;28;170
+29.07.2018;So;LX;Swiss International Air Lines AG;LX339;L;LHR;London;23:23:52;22:45:00;28;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX340;S;LHR;London;21:18:50;20:55:00;32;190
+29.07.2018;So;LX;Swiss International Air Lines AG;LX345;L;LHR;London;08:52:01;08:40:00;34;215
+29.07.2018;So;LX;Swiss International Air Lines AG;LX380;S;MAN;Manchester;17:40:00;17:00:00;28;130
+29.07.2018;So;LX;Swiss International Air Lines AG;LX381;L;MAN;Manchester;22:06:04;21:30:00;28;134
+29.07.2018;So;LX;Swiss International Air Lines AG;LX400;S;DUB;Dublin;09:29:00;09:10:00;16;215
+29.07.2018;So;LX;Swiss International Air Lines AG;LX401;L;DUB;Dublin;14:29:56;14:25:00;14;212
+29.07.2018;So;LX;Swiss International Air Lines AG;LX406;S;DUB;Dublin;07:07:00;07:00:00;28;132
+29.07.2018;So;LX;Swiss International Air Lines AG;LX407;L;DUB;Dublin;12:28:46;11:55:00;14;140
+29.07.2018;So;LX;Swiss International Air Lines AG;LX424;S;BHX;Birmingham;17:19:23;17:10:00;28;105
+29.07.2018;So;LX;Swiss International Air Lines AG;LX425;L;BHX;Birmingham;21:38:08;21:35:00;28;109
+29.07.2018;So;LX;Swiss International Air Lines AG;LX454;S;LCY;London;19:34:29;19:00:00;28;102
+29.07.2018;So;LX;Swiss International Air Lines AG;LX455;L;LCY;London;23:27:35;22:45:00;28;110
+29.07.2018;So;LX;Swiss International Air Lines AG;LX456;S;LCY;London;13:46:08;13:00:00;28;100
+29.07.2018;So;LX;Swiss International Air Lines AG;LX457;L;LCY;London;17:43:57;16:45:00;14;104
+29.07.2018;So;LX;Swiss International Air Lines AG;LX466;S;LCY;London;17:45:03;17:15:00;28;104
+29.07.2018;So;LX;Swiss International Air Lines AG;LX467;L;LCY;London;21:17:55;20:55:00;28;121
+29.07.2018;So;LX;Swiss International Air Lines AG;LX556;S;BOD;Bordeaux;17:34:00;17:20:00;28;127
+29.07.2018;So;LX;Swiss International Air Lines AG;LX557;L;BOD;Bordeaux;21:31:36;21:20:00;28;170
+29.07.2018;So;LX;Swiss International Air Lines AG;LX560;S;NCE;Nice;18:28:00;17:05:00;28;157
+29.07.2018;So;LX;Swiss International Air Lines AG;LX561;L;NCE;Nice;21:35:56;20:10:00;28;155
+29.07.2018;So;LX;Swiss International Air Lines AG;LX562;S;NCE;Nice;08:58:00;08:55:00;28;111
+29.07.2018;So;LX;Swiss International Air Lines AG;LX563;L;NCE;Nice;11:58:09;12:00:00;14;123
+29.07.2018;So;LX;Swiss International Air Lines AG;LX564;S;NCE;Nice;22:02:00;21:55:00;32;64
+29.07.2018;So;LX;Swiss International Air Lines AG;LX565;L;NCE;Nice;07:58:33;08:00:00;34;169
+29.07.2018;So;LX;Swiss International Air Lines AG;LX568;S;NCE;Nice;13:05:00;12:50:00;28;106
+29.07.2018;So;LX;Swiss International Air Lines AG;LX569;L;NCE;Nice;16:13:37;16:00:00;14;131
+29.07.2018;So;LX;Swiss International Air Lines AG;LX632;S;CDG;Paris;07:34:00;07:35:00;32;102
+29.07.2018;So;LX;Swiss International Air Lines AG;LX633;L;CDG;Paris;11:08:28;11:10:00;14;136
+29.07.2018;So;LX;Swiss International Air Lines AG;LX638;S;CDG;Paris;13:19:00;12:35:00;28;123
+29.07.2018;So;LX;Swiss International Air Lines AG;LX639;L;CDG;Paris;16:25:39;15:55:00;14;136
+29.07.2018;So;LX;Swiss International Air Lines AG;LX644;S;CDG;Paris;18:45:00;18:50:00;28;85
+29.07.2018;So;LX;Swiss International Air Lines AG;LX645;L;CDG;Paris;22:03:40;21:55:00;28;176
+29.07.2018;So;LX;Swiss International Air Lines AG;LX646;S;CDG;Paris;21:29:00;20:50:00;32;106
+29.07.2018;So;LX;Swiss International Air Lines AG;LX647;L;CDG;Paris;08:41:50;08:40:00;34;116
+29.07.2018;So;LX;Swiss International Air Lines AG;LX724;S;AMS;Amsterdam;07:23:00;07:20:00;32;168
+29.07.2018;So;LX;Swiss International Air Lines AG;LX725;L;AMS;Amsterdam;11:11:34;11:10:00;14;175
+29.07.2018;So;LX;Swiss International Air Lines AG;LX728;S;AMS;Amsterdam;12:47:00;12:30:00;28;170
+29.07.2018;So;LX;Swiss International Air Lines AG;LX729;L;AMS;Amsterdam;16:29:39;16:25:00;14;169
+29.07.2018;So;LX;Swiss International Air Lines AG;LX734;S;AMS;Amsterdam;18:04:00;17:35:00;28;133
+29.07.2018;So;LX;Swiss International Air Lines AG;LX735;L;AMS;Amsterdam;22:35:52;21:20:00;28;138
+29.07.2018;So;LX;Swiss International Air Lines AG;LX736;S;AMS;Amsterdam;21:00:00;20:55:00;32;126
+29.07.2018;So;LX;Swiss International Air Lines AG;LX737;L;AMS;Amsterdam;08:44:46;08:25:00;34;161
+29.07.2018;So;LX;Swiss International Air Lines AG;LX750;S;LUX;Luxembourg;09:17:45;09:05:00;28;100
+29.07.2018;So;LX;Swiss International Air Lines AG;LX751;L;LUX;Luxembourg;11:38:15;11:40:00;14;89
+29.07.2018;So;LX;Swiss International Air Lines AG;LX770;S;BRU;Brussels;22:09:01;21:00:00;32;103
+29.07.2018;So;LX;Swiss International Air Lines AG;LX771;L;BRU;Brussels;08:34:04;08:20:00;34;103
+29.07.2018;So;LX;Swiss International Air Lines AG;LX780;S;BRU;Brussels;13:07:28;12:55:00;28;102
+29.07.2018;So;LX;Swiss International Air Lines AG;LX781;L;BRU;Brussels;16:10:26;16:10:00;14;106
+29.07.2018;So;LX;Swiss International Air Lines AG;LX786;S;BRU;Brussels;07:54:00;07:35:00;32;114
+29.07.2018;So;LX;Swiss International Air Lines AG;LX787;L;BRU;Brussels;11:23:23;11:10:00;14;119
+29.07.2018;So;LX;Swiss International Air Lines AG;LX788;S;BRU;Brussels;18:38:41;18:25:00;28;87
+29.07.2018;So;LX;Swiss International Air Lines AG;LX789;L;BRU;Brussels;21:48:55;21:25:00;28;94
+29.07.2018;So;LX;Swiss International Air Lines AG;LX814;S;HAJ;Hanover;07:38:00;07:35:00;32;77
+29.07.2018;So;LX;Swiss International Air Lines AG;LX815;L;HAJ;Hanover;10:57:39;11:20:00;14;59
+29.07.2018;So;LX;Swiss International Air Lines AG;LX816;S;HAJ;Hanover;12:18:00;12:15:00;28;131
+29.07.2018;So;LX;Swiss International Air Lines AG;LX817;L;HAJ;Hanover;15:44:56;15:55:00;14;99
+29.07.2018;So;LX;Swiss International Air Lines AG;LX818;S;HAJ;Hanover;21:29:00;21:00:00;32;89
+29.07.2018;So;LX;Swiss International Air Lines AG;LX828;S;HAJ;Hanover;19:18:00;18:35:00;28;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX829;L;HAJ;Hanover;22:24:05;21:45:00;28;129
+29.07.2018;So;LX;Swiss International Air Lines AG;LX900;S;LEJ;Leipzig;11:23:00;11:25:00;28;62
+29.07.2018;So;LX;Swiss International Air Lines AG;LX901;L;LEJ;Leipzig;14:40:32;14:35:00;14;73
+29.07.2018;So;LX;Swiss International Air Lines AG;LX918;S;DRS;Dresden;19:04:23;18:35:00;28;68
+29.07.2018;So;LX;Swiss International Air Lines AG;LX919;L;DRS;Dresden;22:18:10;21:40:00;28;63
+29.07.2018;So;LX;Swiss International Air Lines AG;LX960;S;TXL;Berlin;06:23:00;06:20:00;32;119
+29.07.2018;So;LX;Swiss International Air Lines AG;LX961;L;TXL;Berlin;10:13:05;09:55:00;14;141
+29.07.2018;So;LX;Swiss International Air Lines AG;LX962;S;TXL;Berlin;20:51:00;20:50:00;32;125
+29.07.2018;So;LX;Swiss International Air Lines AG;LX963;L;TXL;Berlin;08:31:00;08:10:00;34;128
+29.07.2018;So;LX;Swiss International Air Lines AG;LX964;S;TXL;Berlin;10:43:00;10:45:00;28;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX965;L;TXL;Berlin;14:29:52;14:15:00;14;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX966;S;TXL;Berlin;13:02:00;12:45:00;28;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX967;L;TXL;Berlin;16:57:29;16:20:00;14;172
+29.07.2018;So;LX;Swiss International Air Lines AG;LX970;S;TXL;Berlin;16:44:00;16:35:00;16;135
+29.07.2018;So;LX;Swiss International Air Lines AG;LX971;L;TXL;Berlin;20:37:01;20:05:00;28;138
+29.07.2018;So;LX;Swiss International Air Lines AG;LX974;S;TXL;Berlin;07:25:00;07:20:00;32;71
+29.07.2018;So;LX;Swiss International Air Lines AG;LX975;L;TXL;Berlin;11:02:13;10:55:00;14;129
+29.07.2018;So;LX;Swiss International Air Lines AG;LX976;S;TXL;Berlin;09:04:00;08:55:00;28;175
+29.07.2018;So;LX;Swiss International Air Lines AG;LX977;L;TXL;Berlin;12:35:39;12:25:00;14;176
+29.07.2018;So;LX;Swiss International Air Lines AG;LX978;S;TXL;Berlin;18:37:00;18:30:00;28;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX979;L;TXL;Berlin;22:18:09;21:55:00;28;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX980;S;TXL;Berlin;15:03:00;15:00:00;28;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX981;L;TXL;Berlin;18:33:58;18:30:00;14;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX982;S;TXL;Berlin;18:09:00;17:30:00;28;117
+29.07.2018;So;LX;Swiss International Air Lines AG;LX983;L;TXL;Berlin;22:32:58;21:00:00;28;118
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1012;S;DUS;Dusseldorf;09:01:25;09:00:00;28;102
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1013;L;DUS;Dusseldorf;13:12:41;12:10:00;14;97
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1016;S;DUS;Dusseldorf;07:33:00;07:30:00;32;94
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1017;L;DUS;Dusseldorf;11:09:16;10:50:00;14;117
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1018;S;DUS;Dusseldorf;13:06:00;12:50:00;28;123
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1019;L;DUS;Dusseldorf;16:10:27;16:05:00;14;113
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1024;S;DUS;Dusseldorf;16:57:00;16:50:00;28;117
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1025;L;DUS;Dusseldorf;20:17:49;20:00:00;28;133
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1026;S;DUS;Dusseldorf;17:56:00;17:55:00;28;115
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1027;L;DUS;Dusseldorf;20:57:13;20:55:00;28;97
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1050;S;HAM;Hamburg;07:21:00;07:20:00;32;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1051;L;HAM;Hamburg;11:05:31;11:10:00;14;176
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1052;S;HAM;Hamburg;08:58:00;08:55:00;28;175
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1053;L;HAM;Hamburg;12:27:28;12:30:00;14;161
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1054;S;HAM;Hamburg;17:49:00;17:40:00;28;113
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1055;L;HAM;Hamburg;21:14:59;21:15:00;28;110
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1056;S;HAM;Hamburg;13:04:00;12:50:00;28;169
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1057;L;HAM;Hamburg;16:32:32;16:25:00;14;173
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1058;S;HAM;Hamburg;17:12:00;16:45:00;28;165
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1059;L;HAM;Hamburg;20:28:37;20:10:00;28;170
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1060;S;HAM;Hamburg;21:02:00;20:45:00;32;173
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1061;L;HAM;Hamburg;08:10:55;07:50:00;34;130
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1068;S;FRA;Frankfurt;07:04:00;06:55:00;32;117
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1069;L;FRA;Frankfurt;09:48:34;09:40:00;14;111
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1074;S;FRA;Frankfurt;15:42:05;15:40:00;28;68
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1075;L;FRA;Frankfurt;18:55:31;18:20:00;14;90
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1076;S;FRA;Frankfurt;19:36:00;19:05:00;28;128
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1077;L;FRA;Frankfurt;22:22:22;21:45:00;28;204
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1100;S;MUC;Munich;07:18:00;07:15:00;32;68
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1101;L;MUC;Munich;10:21:05;10:20:00;14;68
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1108;S;MUC;Munich;15:32:13;15:25:00;28;57
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1109;L;MUC;Munich;18:18:53;17:55:00;14;65
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1110;S;MUC;Munich;19:35:00;19:20:00;28;96
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1111;L;MUC;Munich;22:28:30;21:45:00;28;137
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1168;S;STR;Stuttgart;12:38:07;12:35:00;28;50
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1169;L;STR;Stuttgart;16:03:19;16:05:00;14;72
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1176;S;STR;Stuttgart;09:37:32;09:35:00;28;42
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1177;L;STR;Stuttgart;11:40:44;11:40:00;14;63
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1178;S;STR;Stuttgart;22:46:00;22:40:00;32;79
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1188;S;NUE;Nuremberg;08:54:13;08:55:00;28;38
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1189;L;NUE;Nuremberg;11:25:14;11:30:00;14;66
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1192;S;NUE;Nuremberg;17:39:50;17:25:00;28;63
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1193;L;NUE;Nuremberg;20:11:44;20:00:00;28;70
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1196;S;NUE;Nuremberg;21:24:52;21:05:00;32;47
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1210;S;OSL;Oslo;06:58:00;06:55:00;32;99
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1211;L;OSL;Oslo;11:59:19;12:15:00;14;92
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1216;S;OSL;Oslo;17:07:52;16:40:00;28;96
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1217;L;OSL;Oslo;22:31:29;21:55:00;28;86
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1226;S;GOT;Gothenburg;12:01:00;11:55:00;28;114
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1227;L;GOT;Gothenburg;16:29:46;16:35:00;14;102
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1246;S;ARN;Stockholm;11:43:00;11:40:00;16;176
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1247;L;ARN;Stockholm;19:09:29;17:05:00;14;171
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1248;S;ARN;Stockholm;07:08:00;06:50:00;32;137
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1249;L;ARN;Stockholm;13:01:42;12:15:00;14;135
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1250;S;ARN;Stockholm;12:25:00;12:10:00;16;169
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1251;L;ARN;Stockholm;20:27:08;17:40:00;28;176
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1254;S;ARN;Stockholm;16:31:00;16:20:00;16;159
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1255;L;ARN;Stockholm;22:52:00;21:55:00;28;151
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1266;S;CPH;Copenhagen;07:16:00;07:10:00;32;214
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1267;L;CPH;Copenhagen;11:09:41;11:30:00;14;160
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1270;S;CPH;Copenhagen;12:19:00;12:20:00;16;204
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1271;L;CPH;Copenhagen;16:36:54;16:35:00;14;173
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1272;S;CPH;Copenhagen;18:32:00;17:20:00;16;203
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1273;L;CPH;Copenhagen;22:47:45;21:35:00;28;183
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1276;S;CPH;Copenhagen;13:39:00;13:20:00;28;173
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1277;L;CPH;Copenhagen;17:45:31;17:30:00;14;166
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1310;S;LED;St Petersburg;09:25:00;09:20:00;28;164
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1311;L;LED;St Petersburg;16:35:13;16:20:00;14;146
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1324;S;DME;Moscow;22:26:00;21:45:00;32;156
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1325;L;DME;Moscow;11:22:29;11:40:00;14;172
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1326;S;DME;Moscow;12:59:00;12:20:00;16;163
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1327;L;DME;Moscow;20:23:46;20:00:00;28;168
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1348;S;WAW;Warsaw;12:20:00;12:05:00;28;119
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1349;L;WAW;Warsaw;17:09:43;16:35:00;14;109
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1352;S;WAW;Warsaw;17:26:00;17:15:00;28;126
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1353;L;WAW;Warsaw;21:50:24;21:45:00;28;112
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1370;S;KRK;Krakow;17:14:00;16:55:00;28;94
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1371;L;KRK;Krakow;20:58:17;21:00:00;28;155
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1412;S;BEG;Belgrade;07:06:00;07:05:00;32;214
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1413;L;BEG;Belgrade;11:14:41;11:15:00;14;209
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1416;S;BEG;Belgrade;12:18:00;12:15:00;28;172
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1417;L;BEG;Belgrade;16:29:38;16:30:00;14;174
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1422;S;INI;Nis;13:43:00;13:10:00;28;172
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1423;L;INI;Nis;18:21:38;17:55:00;14;131
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1484;S;PRG;Prague;07:07:00;07:05:00;32;166
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1485;L;PRG;Prague;11:46:05;11:50:00;14;160
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1486;S;PRG;Prague;12:35:00;12:35:00;28;117
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1487;L;PRG;Prague;15:48:29;15:55:00;14;123
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1498;S;PRG;Prague;18:21:00;18:10:00;28;146
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1499;L;PRG;Prague;21:53:35;21:25:00;28;168
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1512;S;GRZ;Graz;13:59:21;13:25:00;28;105
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1574;S;VIE;Vienna;07:23:00;07:10:00;32;209
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1575;L;VIE;Vienna;11:05:56;11:05:00;14;206
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1578;S;VIE;Vienna;13:03:00;12:45:00;28;169
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1579;L;VIE;Vienna;16:20:16;16:10:00;14;172
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1582;S;VIE;Vienna;17:21:00;17:00:00;28;106
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1583;L;VIE;Vienna;20:48:06;20:20:00;28;103
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1584;S;VIE;Vienna;21:10:00;21:05:00;32;135
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1585;L;VIE;Vienna;08:06:06;07:50:00;34;127
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1612;S;MXP;Milan;07:38:00;07:30:00;32;24
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1613;L;MXP;Milan;10:50:27;11:05:00;14;108
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1616;S;MXP;Milan;09:26:00;09:25:00;28;64
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1617;L;MXP;Milan;12:08:19;12:10:00;14;112
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1622;S;MXP;Milan;17:53:00;17:20:00;28;131
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1623;L;MXP;Milan;20:25:00;20:05:00;28;162
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1628;S;MXP;Milan;13:16:05;13:00:00;28;98
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1629;L;MXP;Milan;15:59:21;16:00:00;14;98
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1638;S;MXP;Milan;22:05:38;20:55:00;32;32
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1639;L;MXP;Milan;08:17:11;08:05:00;34;97
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1660;S;VCE;Venice;07:53:00;07:35:00;32;120
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1661;L;VCE;Venice;10:59:25;11:05:00;14;116
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1662;S;VCE;Venice;12:43:48;12:40:00;28;160
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1663;L;VCE;Venice;16:20:44;16:00:00;14;173
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1664;S;VCE;Venice;18:23:00;18:25:00;28;100
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1665;L;VCE;Venice;21:10:24;21:15:00;28;132
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1674;S;FLR;Firenze;12:14:09;11:55:00;28;96
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1675;L;FLR;Firenze;15:02:34;15:00:00;14;106
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1678;S;FLR;Firenze;07:07:57;07:05:00;28;86
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1679;L;FLR;Firenze;11:00:25;11:15:00;14;95
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1680;S;FLR;Firenze;18:33:55;17:15:00;28;92
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1681;L;FLR;Firenze;21:30:41;20:20:00;28;102
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1710;S;NAP;Naples;12:36:49;12:30:00;28;119
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1711;L;NAP;Naples;17:29:25;16:50:00;14;113
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1712;S;NAP;Naples;17:22:00;17:00:00;28;169
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1713;L;NAP;Naples;21:18:57;21:10:00;28;175
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1726;S;FCO;Rome;07:23:00;07:20:00;28;170
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1727;L;FCO;Rome;11:09:42;11:20:00;14;170
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1732;S;FCO;Rome;18:11:24;17:45:00;16;211
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1733;L;FCO;Rome;22:14:47;21:35:00;28;208
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1736;S;FCO;Rome;12:55:00;12:40:00;28;172
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1737;L;FCO;Rome;16:48:46;16:35:00;14;161
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1830;S;ATH;Athens;08:53:00;08:45:00;28;335
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1831;L;ATH;Athens;16:54:26;15:40:00;14;329
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1838;S;ATH;Athens;13:29:00;13:05:00;28;218
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1839;L;ATH;Athens;20:19:27;19:35:00;28;210
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1842;S;ATH;Athens;21:45:00;21:10:00;32;185
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1843;L;ATH;Athens;08:38:50;08:20:00;34;211
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1884;S;OTP;Bucharest;12:07:00;12:05:00;28;132
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1885;L;OTP;Bucharest;17:29:14;17:25:00;14;124
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1886;S;OTP;Bucharest;07:34:28;07:25:00;32;99
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1887;L;OTP;Bucharest;12:58:47;12:45:00;14;99
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1950;S;BCN;Barcelona;21:17:00;21:00:00;32;58
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1951;L;BCN;Barcelona;08:20:42;08:05:00;34;202
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1952;S;BCN;Barcelona;07:16:00;07:10:00;32;214
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1953;L;BCN;Barcelona;11:26:51;11:35:00;14;210
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1954;S;BCN;Barcelona;12:27:00;12:25:00;16;210
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1955;L;BCN;Barcelona;17:42:15;16:40:00;14;209
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1956;S;BCN;Barcelona;17:33:00;17:30:00;28;76
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1957;L;BCN;Barcelona;22:13:18;21:45:00;28;215
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1958;S;BCN;Barcelona;16:06:00;16:05:00;16;181
+29.07.2018;So;LX;Swiss International Air Lines AG;LX1959;L;BCN;Barcelona;20:50:19;20:20:00;28;209
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2026;S;MAD;Madrid;12:42:00;12:25:00;28;133
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2027;L;MAD;Madrid;17:57:40;17:45:00;14;169
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2032;S;MAD;Madrid;16:49:00;16:40:00;28;101
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2033;L;MAD;Madrid;22:00:53;21:55:00;28;112
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2058;S;BIO;Bilbao;12:06:00;12:00:00;28;123
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2059;L;BIO;Bilbao;17:01:10;16:40:00;14;140
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2064;S;OPO;Porto;17:18:00;17:15:00;28;175
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2065;L;OPO;Porto;22:53:38;22:55:00;28;144
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2068;S;OPO;Porto;22:49:00;22:35:00;32;132
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2069;L;OPO;Porto;06:33:35;06:30:00;34;136
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2084;S;LIS;Lisbon;12:07:00;12:00:00;16;203
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2085;L;LIS;Lisbon;18:45:11;18:15:00;14;205
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2110;S;AGP;Malaga;09:51:00;09:40:00;16;196
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2111;L;AGP;Malaga;16:00:47;15:45:00;14;201
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2114;S;AGP;Malaga;11:59:00;12:00:00;16;169
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2115;L;AGP;Malaga;17:59:50;17:50:00;14;151
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2116;S;AGP;Malaga;06:20:00;06:20:00;32;165
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2117;L;AGP;Malaga;12:13:44;12:15:00;14;165
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2138;S;VLC;Valencia;21:22:00;21:10:00;32;84
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2139;L;VLC;Valencia;08:20:29;08:05:00;34;176
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2140;S;VLC;Valencia;06:33:00;06:35:00;34;149
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2141;L;VLC;Valencia;11:25:13;11:20:00;14;175
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2142;S;VLC;Valencia;12:03:00;11:55:00;28;154
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2143;L;VLC;Valencia;17:20:31;16:50:00;14;211
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2146;S;VLC;Valencia;17:13:00;17:05:00;28;133
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2147;L;VLC;Valencia;22:11:36;21:50:00;28;134
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2150;S;PMI;Mallorca;15:13:00;15:15:00;28;160
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2151;L;PMI;Mallorca;19:35:23;19:50:00;14;211
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2154;S;PMI;Mallorca;18:40:00;17:35:00;16;204
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2155;L;PMI;Mallorca;23:20:54;22:10:00;28;213
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2156;S;PMI;Mallorca;12:08:00;12:05:00;16;200
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2157;L;PMI;Mallorca;17:37:37;16:25:00;14;197
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2250;S;BUD;Budapest;07:27:00;07:25:00;32;132
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2251;L;BUD;Budapest;11:18:57;11:20:00;14;123
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2254;S;BUD;Budapest;12:14:00;12:15:00;28;113
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2255;L;BUD;Budapest;16:20:46;16:15:00;14;115
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2258;S;BUD;Budapest;17:53:00;17:15:00;28;108
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2259;L;BUD;Budapest;21:23:37;21:15:00;28;132
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2290;S;KBP;Kiev;09:56:00;09:45:00;16;130
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2291;L;KBP;Kiev;15:36:29;15:45:00;14;113
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2504;S;BDS;Brindisi;12:01:00;11:50:00;16;137
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2505;L;BDS;Brindisi;16:48:09;16:25:00;14;132
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2510;S;PMO;Palermo;17:05:00;17:00:00;16;211
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2511;L;PMO;Palermo;21:54:48;21:35:00;28;200
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2548;S;SJJ;Sarajevo;07:46:00;07:40:00;32;154
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2549;L;SJJ;Sarajevo;11:57:18;11:55:00;14;171
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2552;S;SCQ;Santiago de Compostela;11:30:00;11:25:00;28;109
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2553;L;SCQ;Santiago de Compostela;17:05:32;17:00:00;14;118
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2562;S;ZAG;Zagreb;08:54:00;08:45:00;28;137
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2563;L;ZAG;Zagreb;12:26:05;12:10:00;14;137
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2570;S;GWT;Westerland;17:16:00;16:55:00;28;115
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2571;L;GWT;Westerland;21:45:01;22:00:00;28;105
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2580;S;SKG;Thessaloniki;06:35:00;06:30:00;32;209
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2581;L;SKG;Thessaloniki;12:13:46;11:50:00;14;204
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2596;S;MLA;Malta;07:18:00;07:15:00;28;171
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2597;L;MLA;Malta;12:35:22;12:25:00;14;159
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2801;L;GVA;Geneva;06:43:32;06:45:00;34;135
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2802;S;GVA;Geneva;07:37:00;07:30:00;32;146
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2804;S;GVA;Geneva;09:41:00;09:30:00;28;146
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2805;L;GVA;Geneva;08:22:13;08:20:00;34;172
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2806;S;GVA;Geneva;13:50:00;13:10:00;28;125
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2807;L;GVA;Geneva;10:49:29;10:55:00;14;197
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2808;S;GVA;Geneva;16:33:00;16:25:00;28;100
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2809;L;GVA;Geneva;11:59:43;11:55:00;14;154
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2810;S;GVA;Geneva;19:09:00;17:55:00;28;157
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2811;L;GVA;Geneva;16:20:45;15:35:00;14;121
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2813;L;GVA;Geneva;16:57:04;16:40:00;14;58
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2816;S;GVA;Geneva;21:11:00;20:45:00;32;146
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2817;L;GVA;Geneva;18:57:39;18:40:00;14;127
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2818;S;GVA;Geneva;23:00:00;22:35:00;32;118
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2819;L;GVA;Geneva;21:46:20;21:35:00;28;154
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2824;S;GVA;Geneva;12:26:24;12:15:00;28;54
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2902;S;LUG;Lugano;09:21:39;09:20:00;28;27
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2903;L;LUG;Lugano;08:14:01;08:10:00;34;24
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2905;L;LUG;Lugano;11:20:23;11:25:00;14;45
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2906;S;LUG;Lugano;12:43:19;12:25:00;28;32
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2909;L;LUG;Lugano;16:06:58;16:15:00;14;61
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2912;S;LUG;Lugano;17:40:16;17:30:00;28;45
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2913;L;LUG;Lugano;19:42:16;19:45:00;14;48
+29.07.2018;So;LX;Swiss International Air Lines AG;LX2914;S;LUG;Lugano;20:52:41;20:50:00;32;23
+29.07.2018;So;LY;El Al Israel Airlines Ltd.;LY247;L;TLV;Tel Aviv;08:33:27;08:20:00;34;152
+29.07.2018;So;LY;El Al Israel Airlines Ltd.;LY248;S;TLV;Tel Aviv;09:40:11;09:40:00;28;103
+29.07.2018;So;LY;El Al Israel Airlines Ltd.;LY343;L;TLV;Tel Aviv;19:31:46;19:25:00;14;169
+29.07.2018;So;LY;El Al Israel Airlines Ltd.;LY344;S;TLV;Tel Aviv;22:05:07;21:25:00;32;81
+29.07.2018;So;LY;El Al Israel Airlines Ltd.;LY347;L;TLV;Tel Aviv;11:37:28;11:25:00;14;167
+29.07.2018;So;LY;El Al Israel Airlines Ltd.;LY348;S;TLV;Tel Aviv;13:14:00;12:45:00;16;149
+29.07.2018;So;OLY;Olympus Airways SA;OLY727;L;FUE;Fuerteventura;15:57:05;15:05:00;14;157
+29.07.2018;So;OLY;Olympus Airways SA;OLY728;S;FUE;Fuerteventura;16:47:32;16:05:00;16;187
+29.07.2018;So;OLY;Olympus Airways SA;OLY745;L;TFS;Tenerife;16:18:06;15:45:00;14;204
+29.07.2018;So;OLY;Olympus Airways SA;OLY746;S;TFS;Tenerife;17:49:39;16:30:00;16;181
+29.07.2018;So;OS;Austrian Airlines AG;OS553;L;VIE;Vienna;18:03:39;18:05:00;14;177
+29.07.2018;So;OS;Austrian Airlines AG;OS554;S;VIE;Vienna;18:53:31;18:50:00;28;140
+29.07.2018;So;OS;Austrian Airlines AG;OS561;L;VIE;Vienna;09:04:40;08:55:00;34;166
+29.07.2018;So;OS;Austrian Airlines AG;OS562;S;VIE;Vienna;10:03:00;10:00:00;28;171
+29.07.2018;So;OS;Austrian Airlines AG;OS563;L;VIE;Vienna;16:56:04;16:40:00;14;172
+29.07.2018;So;OS;Austrian Airlines AG;OS564;S;VIE;Vienna;18:17:47;18:00:00;28;157
+29.07.2018;So;OS;Austrian Airlines AG;OS565;L;VIE;Vienna;19:18:35;19:00:00;14;164
+29.07.2018;So;OS;Austrian Airlines AG;OS566;S;VIE;Vienna;19:59:21;19:50:00;32;87
+29.07.2018;So;OS;Austrian Airlines AG;OS567;L;VIE;Vienna;21:13:08;21:25:00;28;122
+29.07.2018;So;OS;Austrian Airlines AG;OS569;L;VIE;Vienna;14:32:08;14:20:00;14;135
+29.07.2018;So;OS;Austrian Airlines AG;OS570;S;VIE;Vienna;15:47:28;15:10:00;28;139
+29.07.2018;So;OU;Croatia Airlines;OU460;L;ZAG;Zagreb;10:48:28;10:45:00;14;66
+29.07.2018;So;OU;Croatia Airlines;OU461;S;ZAG;Zagreb;11:52:10;11:45:00;28;69
+29.07.2018;So;OU;Croatia Airlines;OU464;L;ZAG;Zagreb;19:48:12;19:20:00;14;71
+29.07.2018;So;OU;Croatia Airlines;OU465;S;ZAG;Zagreb;20:23:02;20:05:00;32;67
+29.07.2018;So;OU;Croatia Airlines;OU4466;L;DBV;Dubrovnik;14:38:11;14:25:00;14;71
+29.07.2018;So;OU;Croatia Airlines;OU4467;S;DBV;Dubrovnik;15:18:56;15:05:00;28;66
+29.07.2018;So;PC;Pegasus Hava Tasimaciligi AS;PC947;L;SAW;Istanbul;13:33:35;13:35:00;14;145
+29.07.2018;So;PC;Pegasus Hava Tasimaciligi AS;PC948;S;SAW;Istanbul;14:19:38;14:15:00;28;189
+29.07.2018;So;PS;Ukraine International Airlines;PS471;L;KBP;Kiev;12:19:45;12:20:00;14;95
+29.07.2018;So;PS;Ukraine International Airlines;PS472;S;KBP;Kiev;13:27:43;13:20:00;28;91
+29.07.2018;So;QR;Qatar Airways (Q.C.S.C), Doha/Qatar;QR093;L;DOH;Doha;06:37:00;06:55:00;34;272
+29.07.2018;So;QR;Qatar Airways (Q.C.S.C), Doha/Qatar;QR094;S;DOH;Doha;09:25:31;09:25:00;16;262
+29.07.2018;So;QR;Qatar Airways (Q.C.S.C), Doha/Qatar;QR095;L;DOH;Doha;14:00:13;14:30:00;14;252
+29.07.2018;So;QR;Qatar Airways (Q.C.S.C), Doha/Qatar;QR096;S;DOH;Doha;18:00:15;18:00:00;16;262
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK603;L;CPH;Copenhagen;15:19:14;15:10:00;14;66
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK604;S;CPH;Copenhagen;15:52:53;15:50:00;16;98
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK605;L;ARN;Stockholm;10:04:28;09:45:00;14;178
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK606;S;ARN;Stockholm;10:50:00;10:30:00;28;181
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK609;L;CPH;Copenhagen;20:01:35;19:45:00;14;90
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK610;S;CPH;Copenhagen;20:46:09;20:25:00;32;97
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK841;L;OSL;Oslo;18:34:29;18:20:00;14;172
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK842;S;OSL;Oslo;19:26:00;19:00:00;28;178
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK1605;L;ARN;Stockholm;21:06:43;20:00:00;28;156
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK1606;S;ARN;Stockholm;21:58:00;20:45:00;32;181
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK4841;L;OSL;Oslo;09:57:11;10:05:00;14;111
+29.07.2018;So;SK;SAS Scandinavian Airlines;SK4842;S;OSL;Oslo;10:42:00;10:45:00;28;140
+29.07.2018;So;SM;AIR CAIRO;SM3381;L;HRG;Hurghada;09:05:20;08:50:00;34;173
+29.07.2018;So;SM;AIR CAIRO;SM3382;S;HRG;Hurghada;10:05:38;09:50:00;16;162
+29.07.2018;So;SQ;Singapore Airlines Ltd.;SQ345;S;SIN;Singapore;13:32:04;11:45:00;16;434
+29.07.2018;So;SQ;Singapore Airlines Ltd.;SQ346;L;SIN;Singapore;07:55:36;08:15:00;34;398
+29.07.2018;So;ST;Germania Fluggesellschaft mbH;ST4932;S;PMI;Mallorca;09:51:32;09:50:00;28;139
+29.07.2018;So;ST;Germania Fluggesellschaft mbH;ST4933;L;PMI;Mallorca;09:00:15;09:05:00;34;145
+29.07.2018;So;SU;PJSC «Aeroflot»;SU2390;L;SVO;Moscow;12:14:55;12:25:00;14;130
+29.07.2018;So;SU;PJSC «Aeroflot»;SU2391;S;SVO;Moscow;13:25:57;13:25:00;16;135
+29.07.2018;So;SU;PJSC «Aeroflot»;SU2392;L;SVO;Moscow;20:46:38;20:55:00;28;139
+29.07.2018;So;SU;PJSC «Aeroflot»;SU2393;S;SVO;Moscow;22:29:06;22:35:00;32;160
+29.07.2018;So;TG;Thai Airways International Ltd.;TG970;L;BKK;Bangkok;07:54:03;07:50:00;34;332
+29.07.2018;So;TG;Thai Airways International Ltd.;TG971;S;BKK;Bangkok;13:50:52;13:30:00;16;372
+29.07.2018;So;TK;Turkish Airlines Inc. Stationsleitu;TK1907;L;IST;Istanbul;10:14:33;09:15:00;14;144
+29.07.2018;So;TK;Turkish Airlines Inc. Stationsleitu;TK1908;S;IST;Istanbul;11:26:55;10:10:00;28;174
+29.07.2018;So;TK;Turkish Airlines Inc. Stationsleitu;TK1909;L;IST;Istanbul;18:38:57;18:35:00;14;170
+29.07.2018;So;TK;Turkish Airlines Inc. Stationsleitu;TK1910;S;IST;Istanbul;19:34:41;19:30:00;16;172
+29.07.2018;So;TK;Turkish Airlines Inc. Stationsleitu;TK1911;L;IST;Istanbul;22:09:34;22:15:00;28;151
+29.07.2018;So;TK;Turkish Airlines Inc. Stationsleitu;TK1912;S;IST;Istanbul;07:43:39;07:40:00;32;179
+29.07.2018;So;TK;Turkish Airlines Inc. Stationsleitu;TK1913;L;IST;Istanbul;13:34:56;13:40:00;14;164
+29.07.2018;So;TK;Turkish Airlines Inc. Stationsleitu;TK1914;S;IST;Istanbul;14:44:57;14:40:00;16;175
+29.07.2018;So;TP;TAP Portugal;TP921;S;OPO;Porto;18:26:33;18:00:00;28;87
+29.07.2018;So;TP;TAP Portugal;TP922;L;OPO;Porto;10:47:08;10:35:00;14;78
+29.07.2018;So;TP;TAP Portugal;TP923;S;OPO;Porto;11:46:28;11:20:00;28;100
+29.07.2018;So;TP;TAP Portugal;TP924;L;OPO;Porto;17:25:58;17:15:00;14;91
+29.07.2018;So;TP;TAP Portugal;TP926;L;LIS;Lisbon;18:23:15;17:10:00;14;167
+29.07.2018;So;TP;TAP Portugal;TP927;S;LIS;Lisbon;19:14:06;18:00:00;16;155
+29.07.2018;So;TP;TAP Portugal;TP928;L;LIS;Lisbon;22:53:19;22:40:00;28;139
+29.07.2018;So;TP;TAP Portugal;TP929;S;LIS;Lisbon;06:30:00;06:20:00;32;128
+29.07.2018;So;TP;TAP Portugal;TP931;S;LIS;Lisbon;13:29:29;13:30:00;28;138
+29.07.2018;So;TP;TAP Portugal;TP932;L;LIS;Lisbon;12:29:45;12:40:00;14;154
+29.07.2018;So;UA;United Airlines Inc.;UA044;L;SFO;San Francisco;10:00:29;10:10:00;14;138
+29.07.2018;So;UA;United Airlines Inc.;UA045;S;SFO;San Francisco;09:50:21;09:50:00;16;219
+29.07.2018;So;UA;United Airlines Inc.;UA052;L;IAD;Washington;07:42:20;08:05:00;34;194
+29.07.2018;So;UA;United Airlines Inc.;UA053;S;IAD;Washington;12:39:11;11:50:00;28;218
+29.07.2018;So;UA;United Airlines Inc.;UA134;L;EWR;New York;09:00:37;08:30:00;34;215
+29.07.2018;So;UA;United Airlines Inc.;UA135;S;EWR;New York;11:18:44;10:10:00;16;235
+29.07.2018;So;UX;Air Europa Líneas Aéreas S.A.U.;UX1671;L;MAD;Madrid;17:12:17;17:10:00;14;116
+29.07.2018;So;UX;Air Europa Líneas Aéreas S.A.U.;UX1672;S;MAD;Madrid;18:30:43;18:30:00;28;93
+29.07.2018;So;UX;Air Europa Líneas Aéreas S.A.U.;UX1675;L;MAD;Madrid;09:39:45;09:50:00;14;112
+29.07.2018;So;UX;Air Europa Líneas Aéreas S.A.U.;UX1676;S;MAD;Madrid;10:49:55;10:50:00;28;101
+29.07.2018;So;VY;Vueling Airlines S.A.;VY2170;L;AGP;Malaga;15:20:05;15:15:00;14;167
+29.07.2018;So;VY;Vueling Airlines S.A.;VY2171;S;AGP;Malaga;15:58:00;15:55:00;28;158
+29.07.2018;So;VY;Vueling Airlines S.A.;VY6246;L;BCN;Barcelona;08:53:43;08:55:00;34;182
+29.07.2018;So;VY;Vueling Airlines S.A.;VY6247;S;BCN;Barcelona;10:06:59;09:35:00;28;185
+29.07.2018;So;VY;Vueling Airlines S.A.;VY6248;L;BCN;Barcelona;19:32:41;19:50:00;14;162
+29.07.2018;So;VY;Vueling Airlines S.A.;VY6249;S;BCN;Barcelona;20:50:35;20:35:00;32;169
+29.07.2018;So;VY;Vueling Airlines S.A.;VY6930;L;FCO;Rome;21:45:16;21:15:00;28;173
+29.07.2018;So;VY;Vueling Airlines S.A.;VY6931;S;FCO;Rome;22:25:43;22:05:00;32;83
+29.07.2018;So;VY;Vueling Airlines S.A.;VY7580;L;OPO;Porto;12:48:53;13:00:00;14;149
+29.07.2018;So;VY;Vueling Airlines S.A.;VY7581;S;OPO;Porto;06:22:12;06:10:00;32;164
+29.07.2018;So;VY;Vueling Airlines S.A.;VY7982;S;LIS;Lisbon;14:35:08;14:20:00;28;158
+29.07.2018;So;VY;Vueling Airlines S.A.;VY7983;L;LIS;Lisbon;20:57:11;20:50:00;28;179
+29.07.2018;So;VY;Vueling Airlines S.A.;VY8348;L;PMI;Mallorca;15:56:41;15:55:00;14;177
+29.07.2018;So;VY;Vueling Airlines S.A.;VY8349;S;PMI;Mallorca;16:38:24;16:35:00;28;169
+29.07.2018;So;WK;Edelweiss Air AG;WK002;S;LAS;Las Vegas;16:14:00;15:15:00;34;307
+29.07.2018;So;WK;Edelweiss Air AG;WK003;L;LAS;Las Vegas;14:37:13;13:30:00;14;251
+29.07.2018;So;WK;Edelweiss Air AG;WK004;S;TPA;Tampa;17:50:00;17:30:00;16;304
+29.07.2018;So;WK;Edelweiss Air AG;WK011;L;YVR;Vancouver;15:07:29;15:05:00;14;299
+29.07.2018;So;WK;Edelweiss Air AG;WK014;S;YYC;Calgary;17:04:00;16:50:00;16;291
+29.07.2018;So;WK;Edelweiss Air AG;WK024;S;CUN;Cancun;18:16:00;18:10:00;16;299
+29.07.2018;So;WK;Edelweiss Air AG;WK033;L;HAV;Havana;16:44:22;16:00:00;14;283
+29.07.2018;So;WK;Edelweiss Air AG;WK035;L;PUJ;Punta Cana;14:04:29;14:15:00;14;292
+29.07.2018;So;WK;Edelweiss Air AG;WK130;S;HRG;Hurghada;12:47:00;12:45:00;16;152
+29.07.2018;So;WK;Edelweiss Air AG;WK174;S;AYT;Antalya;23:06:41;22:35:00;34;163
+29.07.2018;So;WK;Edelweiss Air AG;WK200;S;LPA;Gran Canaria;06:04:00;06:05:00;32;149
+29.07.2018;So;WK;Edelweiss Air AG;WK201;L;LPA;Gran Canaria;15:12:24;15:15:00;14;160
+29.07.2018;So;WK;Edelweiss Air AG;WK212;S;FUE;Fuerteventura;06:25:00;06:30:00;32;163
+29.07.2018;So;WK;Edelweiss Air AG;WK213;L;FUE;Fuerteventura;15:21:56;15:30:00;14;159
+29.07.2018;So;WK;Edelweiss Air AG;WK214;S;TFS;Tenerife;06:22:00;06:30:00;32;154
+29.07.2018;So;WK;Edelweiss Air AG;WK215;L;TFS;Tenerife;15:42:13;15:50:00;14;164
+29.07.2018;So;WK;Edelweiss Air AG;WK222;S;XRY;Jerez de la Forntera;16:10:00;16:10:00;28;154
+29.07.2018;So;WK;Edelweiss Air AG;WK223;L;XRY;Jerez de la Forntera;22:42:52;22:25:00;28;152
+29.07.2018;So;WK;Edelweiss Air AG;WK228;S;ACE;Lanzarote;13:58:00;13:55:00;16;154
+29.07.2018;So;WK;Edelweiss Air AG;WK229;L;ACE;Lanzarote;23:05:35;22:45:00;28;162
+29.07.2018;So;WK;Edelweiss Air AG;WK244;S;PMI;Mallorca;13:55:00;10:05:00;16;192
+29.07.2018;So;WK;Edelweiss Air AG;WK245;L;PMI;Mallorca;18:51:07;14:45:00;14;209
+29.07.2018;So;WK;Edelweiss Air AG;WK246;S;PMI;Mallorca;11:36:00;11:30:00;28;156
+29.07.2018;So;WK;Edelweiss Air AG;WK247;L;PMI;Mallorca;16:25:28;15:55:00;14;172
+29.07.2018;So;WK;Edelweiss Air AG;WK266;S;IBZ;Ibiza;18:15:00;17:55:00;28;156
+29.07.2018;So;WK;Edelweiss Air AG;WK267;L;IBZ;Ibiza;22:56:10;22:50:00;28;171
+29.07.2018;So;WK;Edelweiss Air AG;WK310;S;EDI;Edinburgh;06:12:00;06:10:00;32;158
+29.07.2018;So;WK;Edelweiss Air AG;WK311;L;EDI;Edinburgh;11:44:06;11:40:00;14;167
+29.07.2018;So;WK;Edelweiss Air AG;WK336;S;JTR;Santorini;16:55:00;16:25:00;16;150
+29.07.2018;So;WK;Edelweiss Air AG;WK337;L;JTR;Santorini;23:55:18;22:55:00;28;138
+29.07.2018;So;WK;Edelweiss Air AG;WK348;S;HER;Heraklion;08:55:00;08:50:00;28;154
+29.07.2018;So;WK;Edelweiss Air AG;WK349;L;HER;Heraklion;15:32:29;15:30:00;14;164
+29.07.2018;So;WK;Edelweiss Air AG;WK350;S;HER;Heraklion;16:56:45;16:10:00;28;163
+29.07.2018;So;WK;Edelweiss Air AG;WK351;L;HER;Heraklion;22:57:23;22:50:00;28;153
+29.07.2018;So;WK;Edelweiss Air AG;WK354;S;JMK;Mykonos;06:12:00;06:05:00;32;157
+29.07.2018;So;WK;Edelweiss Air AG;WK355;L;JMK;Mykonos;12:39:26;12:30:00;14;156
+29.07.2018;So;WK;Edelweiss Air AG;WK370;S;LCA;Larnarca;06:32:43;06:30:00;34;161
+29.07.2018;So;WK;Edelweiss Air AG;WK371;L;LCA;Larnarca;14:46:00;14:45:00;14;162
+29.07.2018;So;WK;Edelweiss Air AG;WK373;L;LCA;Larnarca;07:58:40;07:50:00;34;141
+29.07.2018;So;WK;Edelweiss Air AG;WK386;S;OLB;Olbia;18:48:00;18:50:00;28;149
+29.07.2018;So;WK;Edelweiss Air AG;WK387;L;OLB;Olbia;22:39:23;22:35:00;28;170
+29.07.2018;So;WK;Edelweiss Air AG;WK388;S;CAG;Cagliari;06:40:00;06:40:00;34;149
+29.07.2018;So;WK;Edelweiss Air AG;WK389;L;CAG;Cagliari;10:47:16;10:50:00;14;160
+29.07.2018;So;WK;Edelweiss Air AG;WK398;S;CTA;Catania;18:12:00;17:55:00;28;159
+29.07.2018;So;WK;Edelweiss Air AG;WK399;L;CTA;Catania;23:00:11;22:45:00;28;164
+29.07.2018;So;WK;Edelweiss Air AG;WK402;S;PRN;Prishtina;06:50:00;06:40:00;32;180
+29.07.2018;So;WK;Edelweiss Air AG;WK403;L;PRN;Prishtina;11:48:28;11:50:00;14;180
+29.07.2018;So;WK;Edelweiss Air AG;WK404;S;PRN;Prishtina;17:43:00;16:55:00;28;171
+29.07.2018;So;WK;Edelweiss Air AG;WK405;L;PRN;Prishtina;22:20:19;22:25:00;28;171
+29.07.2018;So;WK;Edelweiss Air AG;WK406;S;PRN;Prishtina;17:27:00;16:55:00;28;166
+29.07.2018;So;WK;Edelweiss Air AG;WK407;L;PRN;Prishtina;22:08:23;22:20:00;28;172
+29.07.2018;So;WK;Edelweiss Air AG;WK438;S;SKP;Skopje;06:29:00;06:20:00;32;174
+29.07.2018;So;WK;Edelweiss Air AG;WK439;L;SKP;Skopje;11:17:34;11:30:00;14;170
+29.07.2018;So;WK;Edelweiss Air AG;WK444;S;VAR;Varna;06:45:00;06:40:00;34;163
+29.07.2018;So;WK;Edelweiss Air AG;WK445;L;VAR;Varna;12:11:35;12:05:00;14;169
+29.07.2018;So;WK;Edelweiss Air AG;WK1246;S;PMI;Mallorca;12:45:00;12:25:00;28;162
+29.07.2018;So;WK;Edelweiss Air AG;WK1247;L;PMI;Mallorca;17:27:53;17:00:00;14;171
+29.07.2018;So;WK;Edelweiss Air AG;WK1406;S;PRN;Prishtina;07:13:00;06:55:00;32;174
+29.07.2018;So;WK;Edelweiss Air AG;WK1407;L;PRN;Prishtina;11:53:47;12:00:00;14;172
+29.07.2018;So;WK;Edelweiss Air AG;WK1408;S;PRN;Prishtina;11:44:00;11:35:00;28;174
+29.07.2018;So;WK;Edelweiss Air AG;WK1409;L;PRN;Prishtina;16:57:39;17:00:00;14;171
+29.07.2018;So;WY;Oman Air S.A.O.C.,;WY153;L;MCT;Muscat;19:43:59;19:25:00;14;190
+29.07.2018;So;WY;Oman Air S.A.O.C.,;WY154;S;MCT;Muscat;21:53:05;21:55:00;32;272
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ120;L;AYT;Antalya;17:48:50;17:45:00;14;179
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ121;S;AYT;Antalya;19:12:30;18:40:00;28;178
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ121A;S;AYT;Antalya;11:59:35;11:00:00;28;178
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ122;L;AYT;Antalya;15:28:21;14:55:00;14;181
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ123;S;AYT;Antalya;16:22:11;15:45:00;28;189
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ124;L;AYT;Antalya;10:25:17;08:45:00;14;188
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ125;S;AYT;Antalya;11:43:56;09:35:00;28;188
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ960;L;ADB;Izmir;09:46:53;09:35:00;14;156
+29.07.2018;So;XQ;Sunexpress Günes Express Havaclilk;XQ961;S;ADB;Izmir;11:04:33;10:25:00;28;185
+29.07.2018;So;YM;Montenegro Airlines;YM150;L;TGD;Podgorica;14:32:03;14:30:00;14;102
+29.07.2018;So;YM;Montenegro Airlines;YM151;S;TGD;Podgorica;15:19:32;15:10:00;16;109
