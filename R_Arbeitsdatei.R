@@ -106,22 +106,38 @@ scale_bar <- function(lon, lat, distance_lon, distance_lat, distance_legend, dis
 
 ## End
 
+#### Dynamic working directory ####
+
+# this allows multiple persons to use the same R-File
+# without adjusting the working directory by themselves all the time
+source("scripts/csf.R")
+path_to_wd <- csf() # if this - for some reason - does not work,
+# replace with a hardcoded path, like so: "~/projects/rddj-template/analysis/"
+if ( is.null(path_to_wd) | !dir.exists(path_to_wd)) {
+  print("WARNING: No working directory specified for current user")
+} else {
+  setwd(path_to_wd)
+}
+
+## End
+
+
 #### Load Data + Transformations ####
 
-setwd("C:/Users/lucac/OneDrive/Dokumente/Schule/HSLU/1_Semester/GEO_Geospacial_Analysis/Projekt/Datasets")
+# setwd("C:/Users/lucac/OneDrive/Dokumente/Schule/HSLU/1_Semester/GEO_Geospacial_Analysis/Projekt/Datasets")
 
 ## Load airport data
-airports <- read.csv("Airports.csv", header = FALSE)
+airports <- read.csv("data/Airports.csv", header = FALSE)
 airports <- subset(airports[ airports$V5 != "\\N", c("V4","V5","V7","V8")] )
 colnames(airports) <- c("Country","IATA","Latitude_airport","Longitude_airport")
 
 ## Load country center data
-country_centers <- read.csv("Country_Centers.csv", header=TRUE, sep=";", stringsAsFactors = FALSE)
+country_centers <- read.csv("data/Country_Centers.csv", header=TRUE, sep=";", stringsAsFactors = FALSE)
 colnames(country_centers) <- c("Latitude_country","Longitude_country","Country_name","Continent")
 
 ## Load flight data
-flights_raw <- read.csv("20180728_flights_zrh.csv", header=TRUE, sep=";", stringsAsFactors = FALSE)     # summer
-#flights_raw <- read.csv("20190217_flights_zrh.csv", header=TRUE, sep=";", stringsAsFactors = FALSE)     # winter
+flights_raw <- read.csv("data/20180728_flights_zrh.csv", header=TRUE, sep=";", stringsAsFactors = FALSE)     # summer
+#flights_raw <- read.csv("data/20190217_flights_zrh.csv", header=TRUE, sep=";", stringsAsFactors = FALSE)     # winter
 flights_raw <- subset(flights_raw[flights_raw$Bewegungsart.LSV == "S",c(3:5,7,8,12)])                   # Cleaning + Only departures
 colnames(flights_raw) <- c("IATA_Airline_Code","Airline_name","Flugnummer","IATA_Destination_Airport","Destination_City","Passagiere")
 
@@ -255,33 +271,33 @@ season = "summer"
 
   # Destinations
 
-setwd("C:/Users/lucac/OneDrive/Dokumente/Schule/HSLU/1_Semester/GEO_Geospacial_Analysis/Projekt/Datasets")
+# setwd("C:/Users/lucac/OneDrive/Dokumente/Schule/HSLU/1_Semester/GEO_Geospacial_Analysis/Projekt/Datasets")
 
 eu + coord_quickmap(xlim=c(-15,30), ylim=c(25,62))  # Europe
-ggsave(paste("eu_",season,".png",sep=""), width = 20, height = 20, units = "cm")
+ggsave(paste("output/eu_",season,".png",sep=""), width = 20, height = 20, units = "cm")
 
 usa + coord_quickmap(xlim=c(-130,-50), ylim=c(25,55)) # USA 
-ggsave(paste("usa_",season,".png",sep=""), width = 20, height = 20, units = "cm")
+ggsave(paste("output/usa_",season,".png",sep=""), width = 20, height = 20, units = "cm")
 
 asia + coord_quickmap(xlim=c(65,140), ylim=c(-10,65)) # Asia
-ggsave(paste("asia_",season,".png",sep=""), width = 20, height = 20, units = "cm")
+ggsave(paste("output/asia_",season,".png",sep=""), width = 20, height = 20, units = "cm")
 
 middle + coord_quickmap(xlim=c(30,62), ylim=c(20,40)) # Golfregion
-ggsave(paste("middle_",season,".png",sep=""), width = 20, height = 20, units = "cm")
+ggsave(paste("output/middle_",season,".png",sep=""), width = 20, height = 20, units = "cm")
 
 non_eu + coord_quickmap(xlim=c(-135,145), ylim=c(-55,65)) # World
-ggsave(paste("world_",season,".png",sep=""), width = 30, height = 20, units = "cm")
+ggsave(paste("output/world_",season,".png",sep=""), width = 30, height = 20, units = "cm")
 
 ger + coord_quickmap(xlim=c(5,17), ylim=c(47,57)) # Germany
-ggsave(paste("germany_",season,".png",sep=""), width = 20, height = 20, units = "cm")
+ggsave(paste("output/germany_",season,".png",sep=""), width = 20, height = 20, units = "cm")
 
   # Countries
 
 countries + coord_quickmap(xlim=c(-135,145), ylim=c(-55,65)) # Countries World
-ggsave(paste("countries_",season,".png",sep=""), width = 30, height = 20, units = "cm")
+ggsave(paste("output/countries_",season,".png",sep=""), width = 30, height = 20, units = "cm")
 
 countries_eu + coord_quickmap(xlim=c(-15,30), ylim=c(25,62))  # Countries Europe
-ggsave(paste("countries_",season,".png",sep=""), width = 30, height = 20, units = "cm")
+ggsave(paste("output/countries_",season,".png",sep=""), width = 30, height = 20, units = "cm")
 
   # Plot with Scalebar --- ?!?!!
 
