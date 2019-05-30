@@ -2,9 +2,9 @@
 
 # Flughafen Doha (DOH) fehlt noch! Muss noch ergänzt werden
 
-# Tanzania Continent ergänzen
+# Tanzania Continent ergänzen -> erledigt
 
-# Egypt zu Middle East 
+# Egypt zu Middle East -> erledigt
 
 # End
 
@@ -28,9 +28,9 @@ library("grid")
 
   # Source: http://egallic.fr/en/scale-bar-and-north-arrow-on-a-ggplot2-map/
 
-create_scale_bar <- function(lon,lat,distance_lon,distance_lat,distance_legend, dist_units = "km"){
-  # First rectangle
-  bottom_right <- gcDestination(lon = lon, lat = lat, bearing = 90, dist = distance_lon, dist.units = dist_units, model = "WGS84")
+  create_scale_bar <- function(lon,lat,distance_lon,distance_lat,distance_legend, dist_units = "km"){
+    # First rectangle
+    bottom_right <- gcDestination(lon = lon, lat = lat, bearing = 90, dist = distance_lon, dist.units = dist_units, model = "WGS84")
   
   topLeft <- gcDestination(lon = lon, lat = lat, bearing = 0, dist = distance_lat, dist.units = dist_units, model = "WGS84")
   rectangle <- cbind(lon=c(lon, lon, bottom_right[1,"long"], bottom_right[1,"long"], lon),
@@ -108,18 +108,16 @@ scale_bar <- function(lon, lat, distance_lon, distance_lat, distance_legend, dis
 
 #### Dynamic working directory ####
 
-# this allows multiple persons to use the same R-File
-# without adjusting the working directory by themselves all the time
+## this allows multiple persons to use the same R-File without adjusting the working directory by themselves all the time
 source("scripts/csf.R")
-path_to_wd <- csf() # if this - for some reason - does not work,
-# replace with a hardcoded path, like so: "~/projects/rddj-template/analysis/"
+path_to_wd <- csf() # if this - for some reason - does not work, replace with a hardcoded path, like: "~/projects/rddj-template/analysis/"
 if ( is.null(path_to_wd) | !dir.exists(path_to_wd)) {
   print("WARNING: No working directory specified for current user")
 } else {
   setwd(path_to_wd)
 }
 
-## End
+# End
 
 
 #### Load Data + Transformations ####
@@ -131,9 +129,18 @@ airports <- read.csv("data/Airports.csv", header = FALSE)
 airports <- subset(airports[ airports$V5 != "\\N", c("V4","V5","V7","V8")] )
 colnames(airports) <- c("Country","IATA","Latitude_airport","Longitude_airport")
 
+  # Manually add DOH (missing in raw airports df)
+  DOH <- data.frame(Country = 'Qatar', IATA = 'DOH', Latitude_airport =25.261125, Longitude_airport =51.565056)
+  airports <- rbind(airports, DOH)
+  
+
 ## Load country center data
 country_centers <- read.csv("data/Country_Centers.csv", header=TRUE, sep=";", stringsAsFactors = FALSE)
 colnames(country_centers) <- c("Latitude_country","Longitude_country","Country_name","Continent")
+
+  # Manual transformations of Continent for Tanzania and Egypt
+  country_centers[country_centers$Country_name == 'Tanzania', 4] <- 'Africa'
+  country_centers[country_centers$Country_name == 'Egypt', 4] <- 'Middle East'
 
 ## Load flight data
 flights_raw <- read.csv("data/20180728_flights_zrh.csv", header=TRUE, sep=";", stringsAsFactors = FALSE)     # summer
@@ -149,9 +156,10 @@ flights_raw[flights_raw$IATA_Destination_Airport == "SXF", 4]                   
 flights_raw[flights_raw$IATA_Destination_Airport == "SXF", 4]                   <- "TXL" # Berlin Flughäfen zusammenfassen
 flights_raw[flights_raw$IATA_Destination_Airport == "DME", 4]                   <- "SVO" # Moskau Flughäfen zusammenfassen
 
-## Mergeing
-flights_raw <- merge(flights_raw, airports, by.x="IATA_Destination_Airport", by.y = "IATA", sort=TRUE)  # Add airport data (long/lat)
-flights_raw <- merge(flights_raw, country_centers, by.x="Country", by.y="Country_name", sort=TRUE)      # Add country data (long/lat)
+## Merging
+flights_raw <- merge(flights_raw, airports, by.x="IATA_Destination_Airport", by.y = "IATA", sort = TRUE)  # Add airport data (long/lat)
+flights_raw <- merge(flights_raw, country_centers, by.x="Country", by.y="Country_name", sort = TRUE, all.x = TRUE)      # Add country data (long/lat)
+
 
 flights_raw$IATA_Start_Airport <- "ZRH"   # Add ZRH information
 flights_raw$Latitude_ZRH <- 47.46470
@@ -188,7 +196,7 @@ agg_country_eu <- aggregate(Passagiere ~ Country + Longitude_country + Latitude_
 
 #### Build Polygons GGplot + Load Map ####
 
-world <- readOGR(dsn = "C:/Users/lucac/OneDrive/Dokumente/Schule/HSLU/1_Semester/GEO_Geospacial_Analysis/Projekt/Maps/World/CNTR_RG_10M_2016_4326",layer = "CNTR_RG_10M_2016_4326")
+world <- readOGR(dsn = "data",layer = "CNTR_RG_10M_2016_4326")
 
 eu <-  ggplot() +
   geom_polygon(data = world, aes(long, lat, group = group), fill="papayawhip", size=0.3, linetype=1, color = "black") +                       # Plotting map
