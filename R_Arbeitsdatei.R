@@ -1,6 +1,6 @@
 #### Notes ####
 
-# Flughafen Doha (DOH) fehlt noch! Muss noch ergänzt werden
+# Flughafen Doha (DOH) fehlt noch! Muss noch ergänzt werden -> erledigt
 
 # Tanzania Continent ergänzen -> erledigt
 
