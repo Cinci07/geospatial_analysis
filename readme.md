@@ -1,3 +1,9 @@
+---
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
 #### Geospatial Analysis for smart communities
 MSCIDS FS 2019
 
@@ -14,3 +20,13 @@ Die Arbeit soll folgende Forschungsfragen beantworten:
 1. Wie sieht das Passagieraufkommen am Flughafen Zürich an spezifisch gewählten Tagen aus?
 2. In welche Destinationen bzw. Länder fliegen am meisten Passagiere?
 3. Welche saisonalen Unterschiede sind in den Passagierzahlen zu erkennen?
+
+# 2. Datengrundlagen
+Für die Analyse werden voraussichtlich folgende Datengrundlagen verwendet:
+
+| Datensatz                             | Schlüsselmerkmale                                                  | Format | Quellen                                                                               |
+|---------------------------------------|--------------------------------------------------------------------|--------|---------------------------------------------------------------------------------------|
+| Flugbewegungen von spezifischen Tagen | - Flugdatum - Flugnummer - IATA Code Destination - Passagieranzahl | .xlsx  | Flughafen Zürich Frau Franziska Platten Head Datawarehouse & Statistics               |
+| Koordinaten der Flughäfen             | - IATA Code Flughafen - Flughafen Name - Latitude - Longitude      | .xlsx  | OpenFlights https://openflights.org/data.html                                         |
+| Landesgrenzen für Hintergrundkarte    | - Country Code - Name                                              | .shp   | Eurostat https://ec.europa.eu/eurostat/web/main/home GADM https://gadm.org/index.html |
+
