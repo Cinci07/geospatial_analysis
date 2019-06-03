@@ -2,6 +2,8 @@
 
 # Fix plot function for countries --> Longitude_country instead of Longitude_airport --> erledigt
 
+# Add scale bar and north arrow
+
 # End
 
 #### Packages ####
@@ -154,9 +156,13 @@ flights_raw[flights_raw$Season == '29.07.2018', 1] <- 'summer'
 flights_raw <- aggregate(Passagiere ~ Season + IATA_Destination_Airport + Destination_City, data=flights_raw, FUN=sum)
 flights_raw <- spread(flights_raw, Season, Passagiere)
 
+# Column with ratio of difference summer/winter
+flights_raw$diff_ratio <-  flights_raw$summer / flights_raw$winter
+
 ## Calculate difference between summer and winter
 flights_raw[is.na(flights_raw)] <- 0
 flights_raw$difference <- flights_raw$summer - flights_raw$winter
+
 
 ## Transformation flights
 flights_raw[flights_raw$IATA_Destination_Airport %in% c("LGW","LCY","LTN"), 1]  <- "LHR" # London Flughäfen zusammenfassen
@@ -190,11 +196,17 @@ flights_africa <- subset(flights_raw[flights_raw$Continent == "Africa",])
 flights_non_eu <- subset(flights_raw[flights_raw$Continent != "Europe",])
 flights_germany <- subset(flights_raw[flights_raw$Country == "Germany",])
 
-flights_agg_countries <- aggregate( cbind(summer, winter, difference) ~ Country + Latitude_country + Longitude_country + IATA_Start_Airport 
-                                    + Longitude_ZRH + Latitude_ZRH, data=flights_raw, FUN=sum)
+agg_countries_world <- aggregate( cbind(summer, winter, difference) ~ Country + Latitude_country + Longitude_country + IATA_Start_Airport 
+                                    + Longitude_ZRH + Latitude_ZRH, data = flights_non_eu, FUN = sum)
+
+agg_countries_eu <- aggregate( cbind(summer, winter, difference) ~ Country + Latitude_country + Longitude_country + IATA_Start_Airport 
+                                  + Longitude_ZRH + Latitude_ZRH, data = flights_eu, FUN=sum)
 
 # Destinations in Europe with difference > 400
 flights_eu_difference <- subset(flights_eu[flights_eu$difference > 400,])
+
+# Destinations in Europe with ratio > 2
+flights_eu_ratio_2 <- subset(flights_eu[flights_eu$diff_ratio > 2,])
 
 #### Build Polygons GGplot + Load Map ####
 
@@ -202,13 +214,13 @@ flights_eu_difference <- subset(flights_eu[flights_eu$difference > 400,])
 world <- readOGR(dsn = "data",layer = "CNTR_RG_10M_2016_4326")
 
 # Define functions for summer, winter and difference (summer - winter) - different functions to change colors
-plot_winter <- function(region, longitude = Longitude_airport, latitude = Latitude_airport,label = IATA_Destination_Airport, scale = 1000){
+plot_winter <- function(region, longitude = region$Longitude_airport, latitude = region$Latitude_airport,label = region$IATA_Destination_Airport, scale = 1000){
   ggplot() +
     geom_polygon(data = world, aes(long, lat, group = group), fill="papayawhip", size=0.3, linetype=1, color = "black") +                       # Plotting map
     geom_point(data = region, aes(longitude, latitude, group = FALSE ), col="#0059b3") +                                        # Airport dots (foreign)
-    geom_text(data = region, aes(longitude, latitude, label= label), hjust=1.25, vjust=0.25) +                # Airport text (foreign)
     geom_curve(data = region, aes(x = Longitude_ZRH, y = Latitude_ZRH, xend = longitude, yend = latitude), col="#0059b3", 
                curvature = -0.3, size = region$winter/scale, ncp = 50) + # Connections!
+    geom_text(data = region, aes(longitude, latitude, label= label), hjust=1.25, vjust=0.25) +                # Airport text (foreign)
     theme_test() +
     theme( panel.background = element_rect(fill = "aliceblue")) +
     coord_equal()
@@ -216,13 +228,13 @@ plot_winter <- function(region, longitude = Longitude_airport, latitude = Latitu
 }
 
 
-plot_summer <- function(region, longitude = Longitude_airport, latitude = Latitude_airport,label = IATA_Destination_Airport, scale = 1000){
+plot_summer <- function(region, longitude = region$Longitude_airport, latitude = region$Latitude_airport,label = region$IATA_Destination_Airport, scale = 1000){
   ggplot() +
-    geom_polygon(data = world, aes(long, lat, group = group), fill="papayawhip", size=0.3, linetype=1, color = "black") +                       # Plotting map
+    geom_polygon(data = world, aes(long, lat, group = group), fill="papayawhip", size=0.3, linetype=1, color = "black") +       # Plotting map
     geom_point(data = region, aes(longitude, latitude, group = FALSE ), col="#ff7733") +                                        # Airport dots (foreign)
-    geom_text(data = region, aes(longitude, latitude, label= label), hjust=1.25, vjust=0.25) +                # Airport text (foreign)
     geom_curve(data = region, aes(x = Longitude_ZRH, y = Latitude_ZRH, xend = longitude, yend = latitude), col="#ff7733", 
-               curvature = -0.3, size = region$summer/scale, ncp = 50) + # Connections!
+               curvature = -0.3, size = region$summer/scale, ncp = 50) + # Connections! 
+    geom_text(data = region, aes(longitude, latitude, label= label), hjust=1.25, vjust=0.25) +                                  # Airport text (foreign)
     theme_test() +
     theme( panel.background = element_rect(fill = "aliceblue")) +
     coord_equal()
@@ -231,19 +243,33 @@ plot_summer <- function(region, longitude = Longitude_airport, latitude = Latitu
   
 
 
-plot_difference <- function(region, longitude = Longitude_airport, latitude = Latitude_airport,label = IATA_Destination_Airport, scale = 1000){
+plot_difference <- function(region, longitude = region$Longitude_airport, latitude = region$Latitude_airport,label = region$IATA_Destination_Airport, scale = 1000){
   ggplot() +
-    geom_polygon(data = world, aes(long, lat, group = group), fill="papayawhip", size=0.3, linetype=1, color = "black") +                       # Plotting map
+    geom_polygon(data = world, aes(long, lat, group = group), fill="papayawhip", size=0.3, linetype=1, color = "black") +       # Plotting map
     geom_point(data = region, aes(longitude, latitude, group = FALSE ), col="#009933") +                                        # Airport dots (foreign)
-    geom_text(data = region, aes(longitude, latitude, label= label), hjust=1.25, vjust=0.25) +                # Airport text (foreign)
     geom_curve(data = region, aes(x = Longitude_ZRH, y = Latitude_ZRH, xend = longitude, yend = latitude), col="#009933", 
-               curvature = -0.3, size = region$difference/scale, ncp = 50) + # Connections!
+               curvature = -0.3, size = abs(region$difference)/scale, ncp = 50) +                                               # Connections! abs() to treat negative differences (winter > summer)
+    geom_text(data = region, aes(longitude, latitude, label= label), hjust=1.25, vjust=0.25) +                                  # Airport text (foreign)
+
     theme_test() +
     theme( panel.background = element_rect(fill = "aliceblue")) +
     coord_equal()
   
 }
 
+plot_ratio <- function(region, longitude = region$Longitude_airport, latitude = region$Latitude_airport,label = region$IATA_Destination_Airport){
+  ggplot() +
+    geom_polygon(data = world, aes(long, lat, group = group), fill="papayawhip", size=0.3, linetype=1, color = "black") +       # Plotting map
+    geom_point(data = region, aes(longitude, latitude, group = FALSE ), col="#009933") +                                        # Airport dots (foreign)
+    geom_curve(data = region, aes(x = Longitude_ZRH, y = Latitude_ZRH, xend = longitude, yend = latitude), col="#009933", 
+               curvature = -0.3, size = region$diff_ratio/2, ncp = 50) +                                               # Connections! abs() to treat negative differences (winter > summer)
+    geom_text(data = region, aes(longitude, latitude, label= label), hjust=1.25, vjust=0.25) +                                  # Airport text (foreign)
+    
+    theme_test() +
+    theme( panel.background = element_rect(fill = "aliceblue")) +
+    coord_equal()
+  
+}
 
 
 # Create plots for each region
@@ -252,6 +278,7 @@ eu_winter <- plot_winter(flights_eu)
 eu_summer <- plot_summer(flights_eu)
 eu_difference <- plot_difference(flights_eu)
 eu_big_difference <- plot_difference(flights_eu_difference, scale = 500)
+eu_ratio <- plot_ratio(flights_eu_ratio_2)
 
 # USA
 usa_winter <- plot_winter(flights_usa)
@@ -274,14 +301,20 @@ non_eu_summer <- plot_summer(flights_non_eu)
 non_eu_difference <- plot_difference(flights_non_eu)
 
 # Germany
-germany_winter <- plot_winter(flights_germany)
-germany_summer <- plot_summer(flights_germany)
-germany_difference <- plot_difference(flights_germany)
+germany_winter <- plot_winter(flights_germany, scale = 500)
+germany_summer <- plot_summer(flights_germany, scale = 500)
+germany_difference <- plot_difference(flights_germany, scale = 500)
 
 # Aggregated on countries (world)
-agg_countries_winter <- plot_winter(flights_agg_countries, longitude = flights_agg_countries$Longitude_country, latitude = flights_agg_countries$Latitude_country, label = flights_agg_countries$Country)
-agg_countries_summer <- plot_summer(flights_agg_countries)
-agg_countries_difference <- plot_difference(flights_agg_countries)
+agg_countries_winter <- plot_winter(agg_countries_world, longitude = agg_countries_world$Longitude_country, latitude = agg_countries_world$Latitude_country, label = agg_countries_world$Country)
+agg_countries_summer <- plot_summer(agg_countries_world, longitude = agg_countries_world$Longitude_country, latitude = agg_countries_world$Latitude_country, label = agg_countries_world$Country)
+agg_countries_difference <- plot_difference(agg_countries_world, longitude = agg_countries_world$Longitude_country, latitude = agg_countries_world$Latitude_country, label = agg_countries_world$Country)
+
+# Aggregated on countries (EU)
+agg_countries_eu_winter <- plot_winter(agg_countries_eu, longitude = agg_countries_eu$Longitude_country, latitude = agg_countries_eu$Latitude_country, label = agg_countries_eu$Country)
+agg_countries_eu_summer <- plot_summer(agg_countries_eu, longitude = agg_countries_eu$Longitude_country, latitude = agg_countries_eu$Latitude_country, label = agg_countries_eu$Country)
+agg_countries_eu_difference <- plot_difference(agg_countries_eu, longitude = agg_countries_eu$Longitude_country, latitude = agg_countries_eu$Latitude_country, label = agg_countries_eu$Country)
+
 
 
 ## End
@@ -291,17 +324,21 @@ agg_countries_difference <- plot_difference(flights_agg_countries)
 
 
 # Europe
-eu_winter + coord_quickmap(xlim=c(-15,30), ylim=c(25,62))
+eu_winter + coord_quickmap(xlim=c(-15,36), ylim=c(25,62))
 ggsave(paste("output/eu_winter.png",sep=""), width = 20, height = 20, units = "cm")
 
-eu_summer + coord_quickmap(xlim=c(-15,30), ylim=c(25,62))
+eu_summer + coord_quickmap(xlim=c(-15,36), ylim=c(25,62))
 ggsave(paste("output/eu_summer.png",sep=""), width = 20, height = 20, units = "cm")
 
-eu_difference + coord_quickmap(xlim=c(-15,30), ylim=c(25,62))
+eu_difference + coord_quickmap(xlim=c(-15,36), ylim=c(25,62))
 ggsave(paste("output/eu_difference.png",sep=""), width = 20, height = 20, units = "cm")
 
-eu_big_difference + coord_quickmap(xlim=c(-15,30), ylim=c(25,62))
+eu_big_difference + coord_quickmap(xlim=c(-15,36), ylim=c(25,62))
 ggsave(paste("output/eu_big_difference.png",sep=""), width = 20, height = 20, units = "cm")
+
+eu_ratio + coord_quickmap(xlim=c(-15,36), ylim=c(25,62))
+ggsave(paste("output/eu_ratio.png",sep=""), width = 20, height = 20, units = "cm")
+
 
 # USA
 usa_summer + coord_quickmap(xlim=c(-130,-50), ylim=c(25,55))  
@@ -313,6 +350,7 @@ ggsave(paste("output/usa_winter.png",sep=""), width = 20, height = 20, units = "
 usa_difference + coord_quickmap(xlim=c(-130,-50), ylim=c(25,55))
 ggsave(paste("output/usa_difference.png",sep=""), width = 20, height = 20, units = "cm")
 
+
 # Asia
 asia_summer + coord_quickmap(xlim=c(65,140), ylim=c(-10,65)) # Asia
 ggsave(paste("output/asia_summer.png",sep=""), width = 20, height = 20, units = "cm")
@@ -322,6 +360,7 @@ ggsave(paste("output/asia_winter.png",sep=""), width = 20, height = 20, units = 
 
 asia_difference + coord_quickmap(xlim=c(65,140), ylim=c(-10,65)) # Asia
 ggsave(paste("output/asia_difference.png",sep=""), width = 20, height = 20, units = "cm")
+
 
 # Middle East
 middle_summer + coord_quickmap(xlim=c(30,62), ylim=c(20,40)) # Golfregion
@@ -368,8 +407,15 @@ ggsave(paste("output/countries_difference.png",sep=""), width = 30, height = 20,
 
 
 # Countries Europe
-agg_countries_summer + coord_quickmap(xlim=c(-15,30), ylim=c(25,62))  # Countries Europe
+agg_countries_eu_summer + coord_quickmap(xlim=c(-15,36), ylim=c(25,62))  # Countries Europe
 ggsave(paste("output/countries_eu_summer.png",sep=""), width = 30, height = 20, units = "cm")
+
+agg_countries_eu_winter + coord_quickmap(xlim=c(-15,36), ylim=c(25,62))  # Countries Europe
+ggsave(paste("output/countries_eu_winter.png",sep=""), width = 30, height = 20, units = "cm")
+
+agg_countries_eu_difference + coord_quickmap(xlim=c(-15,36), ylim=c(25,62))  # Countries Europe
+ggsave(paste("output/countries_eu_difference.png",sep=""), width = 30, height = 20, units = "cm")
+
 
   # Plot with Scalebar --- ?!?!!
 
